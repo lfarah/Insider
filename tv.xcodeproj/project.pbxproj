@@ -1,0 +1,794 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C24D51581BBA1A370073F841 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24D51571BBA1A370073F841 /* AppDelegate.swift */; };
+		C24D515A1BBA1A370073F841 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24D51591BBA1A370073F841 /* ViewController.swift */; };
+		C24D515D1BBA1A370073F841 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C24D515B1BBA1A370073F841 /* Main.storyboard */; };
+		C24D515F1BBA1A370073F841 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C24D515E1BBA1A370073F841 /* Assets.xcassets */; };
+		C24D516A1BBA1A370073F841 /* tvTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24D51691BBA1A370073F841 /* tvTests.swift */; };
+		C24D51751BBA1A370073F841 /* tvUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C24D51741BBA1A370073F841 /* tvUITests.swift */; };
+		C2C32B2F1BC340F4008DB607 /* tb_profile_201303_round.png in Resources */ = {isa = PBXBuildFile; fileRef = C2C32B2E1BC340F4008DB607 /* tb_profile_201303_round.png */; };
+		C2C32B311BC341E9008DB607 /* UsersTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C32B301BC341E9008DB607 /* UsersTableViewController.swift */; };
+		C2C32B331BC34233008DB607 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C2C32B321BC34233008DB607 /* UserTableViewCell.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C24D51661BBA1A370073F841 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C24D514C1BBA1A370073F841 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C24D51531BBA1A370073F841;
+			remoteInfo = tv;
+		};
+		C24D51711BBA1A370073F841 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C24D514C1BBA1A370073F841 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C24D51531BBA1A370073F841;
+			remoteInfo = tv;
+		};
+		C2B50E581BC484A200D6C26F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C24D514C1BBA1A370073F841 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2B50E431BC484A200D6C26F;
+			remoteInfo = tviPhoneLocator;
+		};
+		C2B50E631BC484A200D6C26F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C24D514C1BBA1A370073F841 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C2B50E431BC484A200D6C26F;
+			remoteInfo = tviPhoneLocator;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C24D51541BBA1A370073F841 /* tv.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tv.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C24D51571BBA1A370073F841 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C24D51591BBA1A370073F841 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C24D515C1BBA1A370073F841 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C24D515E1BBA1A370073F841 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C24D51601BBA1A370073F841 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C24D51651BBA1A370073F841 /* tvTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tvTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C24D51691BBA1A370073F841 /* tvTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvTests.swift; sourceTree = "<group>"; };
+		C24D516B1BBA1A370073F841 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C24D51701BBA1A370073F841 /* tvUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tvUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C24D51741BBA1A370073F841 /* tvUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tvUITests.swift; sourceTree = "<group>"; };
+		C24D51761BBA1A370073F841 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C2B50E441BC484A200D6C26F /* tviPhoneLocator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = tviPhoneLocator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2B50E571BC484A200D6C26F /* tviPhoneLocatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tviPhoneLocatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2B50E621BC484A200D6C26F /* tviPhoneLocatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tviPhoneLocatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		C2C32B2E1BC340F4008DB607 /* tb_profile_201303_round.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = tb_profile_201303_round.png; sourceTree = "<group>"; };
+		C2C32B301BC341E9008DB607 /* UsersTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UsersTableViewController.swift; sourceTree = "<group>"; };
+		C2C32B321BC34233008DB607 /* UserTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C24D51511BBA1A370073F841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24D51621BBA1A370073F841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24D516D1BBA1A370073F841 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B50E411BC484A200D6C26F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B50E541BC484A200D6C26F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B50E5F1BC484A200D6C26F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C24D514B1BBA1A370073F841 = {
+			isa = PBXGroup;
+			children = (
+				C24D51561BBA1A370073F841 /* tv */,
+				C24D51681BBA1A370073F841 /* tvTests */,
+				C24D51731BBA1A370073F841 /* tvUITests */,
+				C24D51551BBA1A370073F841 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C24D51551BBA1A370073F841 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C24D51541BBA1A370073F841 /* tv.app */,
+				C24D51651BBA1A370073F841 /* tvTests.xctest */,
+				C24D51701BBA1A370073F841 /* tvUITests.xctest */,
+				C2B50E441BC484A200D6C26F /* tviPhoneLocator.app */,
+				C2B50E571BC484A200D6C26F /* tviPhoneLocatorTests.xctest */,
+				C2B50E621BC484A200D6C26F /* tviPhoneLocatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C24D51561BBA1A370073F841 /* tv */ = {
+			isa = PBXGroup;
+			children = (
+				C2C32B2E1BC340F4008DB607 /* tb_profile_201303_round.png */,
+				C24D51571BBA1A370073F841 /* AppDelegate.swift */,
+				C24D51591BBA1A370073F841 /* ViewController.swift */,
+				C24D515B1BBA1A370073F841 /* Main.storyboard */,
+				C2C32B321BC34233008DB607 /* UserTableViewCell.swift */,
+				C2C32B301BC341E9008DB607 /* UsersTableViewController.swift */,
+				C24D515E1BBA1A370073F841 /* Assets.xcassets */,
+				C24D51601BBA1A370073F841 /* Info.plist */,
+			);
+			path = tv;
+			sourceTree = "<group>";
+		};
+		C24D51681BBA1A370073F841 /* tvTests */ = {
+			isa = PBXGroup;
+			children = (
+				C24D51691BBA1A370073F841 /* tvTests.swift */,
+				C24D516B1BBA1A370073F841 /* Info.plist */,
+			);
+			path = tvTests;
+			sourceTree = "<group>";
+		};
+		C24D51731BBA1A370073F841 /* tvUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C24D51741BBA1A370073F841 /* tvUITests.swift */,
+				C24D51761BBA1A370073F841 /* Info.plist */,
+			);
+			path = tvUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C24D51531BBA1A370073F841 /* tv */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C24D51791BBA1A370073F841 /* Build configuration list for PBXNativeTarget "tv" */;
+			buildPhases = (
+				C24D51501BBA1A370073F841 /* Sources */,
+				C24D51511BBA1A370073F841 /* Frameworks */,
+				C24D51521BBA1A370073F841 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tv;
+			productName = tv;
+			productReference = C24D51541BBA1A370073F841 /* tv.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C24D51641BBA1A370073F841 /* tvTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C24D517C1BBA1A370073F841 /* Build configuration list for PBXNativeTarget "tvTests" */;
+			buildPhases = (
+				C24D51611BBA1A370073F841 /* Sources */,
+				C24D51621BBA1A370073F841 /* Frameworks */,
+				C24D51631BBA1A370073F841 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C24D51671BBA1A370073F841 /* PBXTargetDependency */,
+			);
+			name = tvTests;
+			productName = tvTests;
+			productReference = C24D51651BBA1A370073F841 /* tvTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C24D516F1BBA1A370073F841 /* tvUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C24D517F1BBA1A370073F841 /* Build configuration list for PBXNativeTarget "tvUITests" */;
+			buildPhases = (
+				C24D516C1BBA1A370073F841 /* Sources */,
+				C24D516D1BBA1A370073F841 /* Frameworks */,
+				C24D516E1BBA1A370073F841 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C24D51721BBA1A370073F841 /* PBXTargetDependency */,
+			);
+			name = tvUITests;
+			productName = tvUITests;
+			productReference = C24D51701BBA1A370073F841 /* tvUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		C2B50E431BC484A200D6C26F /* tviPhoneLocator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2B50E6F1BC484A200D6C26F /* Build configuration list for PBXNativeTarget "tviPhoneLocator" */;
+			buildPhases = (
+				C2B50E401BC484A200D6C26F /* Sources */,
+				C2B50E411BC484A200D6C26F /* Frameworks */,
+				C2B50E421BC484A200D6C26F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = tviPhoneLocator;
+			productName = tviPhoneLocator;
+			productReference = C2B50E441BC484A200D6C26F /* tviPhoneLocator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C2B50E561BC484A200D6C26F /* tviPhoneLocatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2B50E701BC484A200D6C26F /* Build configuration list for PBXNativeTarget "tviPhoneLocatorTests" */;
+			buildPhases = (
+				C2B50E531BC484A200D6C26F /* Sources */,
+				C2B50E541BC484A200D6C26F /* Frameworks */,
+				C2B50E551BC484A200D6C26F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2B50E591BC484A200D6C26F /* PBXTargetDependency */,
+			);
+			name = tviPhoneLocatorTests;
+			productName = tviPhoneLocatorTests;
+			productReference = C2B50E571BC484A200D6C26F /* tviPhoneLocatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C2B50E611BC484A200D6C26F /* tviPhoneLocatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C2B50E711BC484A200D6C26F /* Build configuration list for PBXNativeTarget "tviPhoneLocatorUITests" */;
+			buildPhases = (
+				C2B50E5E1BC484A200D6C26F /* Sources */,
+				C2B50E5F1BC484A200D6C26F /* Frameworks */,
+				C2B50E601BC484A200D6C26F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C2B50E641BC484A200D6C26F /* PBXTargetDependency */,
+			);
+			name = tviPhoneLocatorUITests;
+			productName = tviPhoneLocatorUITests;
+			productReference = C2B50E621BC484A200D6C26F /* tviPhoneLocatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C24D514C1BBA1A370073F841 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Lucas Farah";
+				TargetAttributes = {
+					C24D51531BBA1A370073F841 = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					C24D51641BBA1A370073F841 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = C24D51531BBA1A370073F841;
+					};
+					C24D516F1BBA1A370073F841 = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = C24D51531BBA1A370073F841;
+					};
+					C2B50E431BC484A200D6C26F = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					C2B50E561BC484A200D6C26F = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = C2B50E431BC484A200D6C26F;
+					};
+					C2B50E611BC484A200D6C26F = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = C2B50E431BC484A200D6C26F;
+					};
+				};
+			};
+			buildConfigurationList = C24D514F1BBA1A370073F841 /* Build configuration list for PBXProject "tv" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C24D514B1BBA1A370073F841;
+			productRefGroup = C24D51551BBA1A370073F841 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C24D51531BBA1A370073F841 /* tv */,
+				C24D51641BBA1A370073F841 /* tvTests */,
+				C24D516F1BBA1A370073F841 /* tvUITests */,
+				C2B50E431BC484A200D6C26F /* tviPhoneLocator */,
+				C2B50E561BC484A200D6C26F /* tviPhoneLocatorTests */,
+				C2B50E611BC484A200D6C26F /* tviPhoneLocatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C24D51521BBA1A370073F841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24D515F1BBA1A370073F841 /* Assets.xcassets in Resources */,
+				C24D515D1BBA1A370073F841 /* Main.storyboard in Resources */,
+				C2C32B2F1BC340F4008DB607 /* tb_profile_201303_round.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24D51631BBA1A370073F841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24D516E1BBA1A370073F841 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B50E421BC484A200D6C26F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B50E551BC484A200D6C26F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B50E601BC484A200D6C26F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C24D51501BBA1A370073F841 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24D515A1BBA1A370073F841 /* ViewController.swift in Sources */,
+				C2C32B331BC34233008DB607 /* UserTableViewCell.swift in Sources */,
+				C2C32B311BC341E9008DB607 /* UsersTableViewController.swift in Sources */,
+				C24D51581BBA1A370073F841 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24D51611BBA1A370073F841 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24D516A1BBA1A370073F841 /* tvTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C24D516C1BBA1A370073F841 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C24D51751BBA1A370073F841 /* tvUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B50E401BC484A200D6C26F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B50E531BC484A200D6C26F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C2B50E5E1BC484A200D6C26F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C24D51671BBA1A370073F841 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C24D51531BBA1A370073F841 /* tv */;
+			targetProxy = C24D51661BBA1A370073F841 /* PBXContainerItemProxy */;
+		};
+		C24D51721BBA1A370073F841 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C24D51531BBA1A370073F841 /* tv */;
+			targetProxy = C24D51711BBA1A370073F841 /* PBXContainerItemProxy */;
+		};
+		C2B50E591BC484A200D6C26F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2B50E431BC484A200D6C26F /* tviPhoneLocator */;
+			targetProxy = C2B50E581BC484A200D6C26F /* PBXContainerItemProxy */;
+		};
+		C2B50E641BC484A200D6C26F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C2B50E431BC484A200D6C26F /* tviPhoneLocator */;
+			targetProxy = C2B50E631BC484A200D6C26F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C24D515B1BBA1A370073F841 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C24D515C1BBA1A370073F841 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C24D51771BBA1A370073F841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = appletvos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+			};
+			name = Debug;
+		};
+		C24D51781BBA1A370073F841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = appletvos;
+				TARGETED_DEVICE_FAMILY = 3;
+				TVOS_DEPLOYMENT_TARGET = 9.0;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C24D517A1BBA1A370073F841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = tv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Mapbox",
+					"GL-2",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.tv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C24D517B1BBA1A370073F841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = "App Icon & Top Shelf Image";
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				INFOPLIST_FILE = tv/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Mapbox",
+					"GL-2",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.tv;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C24D517D1BBA1A370073F841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tvTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.tvTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tv.app/tv";
+			};
+			name = Debug;
+		};
+		C24D517E1BBA1A370073F841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = tvTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.tvTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tv.app/tv";
+			};
+			name = Release;
+		};
+		C24D51801BBA1A370073F841 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tvUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.tvUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = tv;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C24D51811BBA1A370073F841 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = tvUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.tvUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = tv;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+		C2B50E691BC484A200D6C26F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = tviPhoneLocator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.tviPhoneLocator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C2B50E6A1BC484A200D6C26F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = tviPhoneLocator/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.tviPhoneLocator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
+		C2B50E6B1BC484A200D6C26F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = tviPhoneLocatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.tviPhoneLocatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tviPhoneLocator.app/tviPhoneLocator";
+			};
+			name = Debug;
+		};
+		C2B50E6C1BC484A200D6C26F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = tviPhoneLocatorTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.tviPhoneLocatorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/tviPhoneLocator.app/tviPhoneLocator";
+			};
+			name = Release;
+		};
+		C2B50E6D1BC484A200D6C26F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = tviPhoneLocatorUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.tviPhoneLocatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_TARGET_NAME = tviPhoneLocator;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		C2B50E6E1BC484A200D6C26F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = tviPhoneLocatorUITests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.tviPhoneLocatorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				TEST_TARGET_NAME = tviPhoneLocator;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C24D514F1BBA1A370073F841 /* Build configuration list for PBXProject "tv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C24D51771BBA1A370073F841 /* Debug */,
+				C24D51781BBA1A370073F841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C24D51791BBA1A370073F841 /* Build configuration list for PBXNativeTarget "tv" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C24D517A1BBA1A370073F841 /* Debug */,
+				C24D517B1BBA1A370073F841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C24D517C1BBA1A370073F841 /* Build configuration list for PBXNativeTarget "tvTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C24D517D1BBA1A370073F841 /* Debug */,
+				C24D517E1BBA1A370073F841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C24D517F1BBA1A370073F841 /* Build configuration list for PBXNativeTarget "tvUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C24D51801BBA1A370073F841 /* Debug */,
+				C24D51811BBA1A370073F841 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2B50E6F1BC484A200D6C26F /* Build configuration list for PBXNativeTarget "tviPhoneLocator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2B50E691BC484A200D6C26F /* Debug */,
+				C2B50E6A1BC484A200D6C26F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2B50E701BC484A200D6C26F /* Build configuration list for PBXNativeTarget "tviPhoneLocatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2B50E6B1BC484A200D6C26F /* Debug */,
+				C2B50E6C1BC484A200D6C26F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C2B50E711BC484A200D6C26F /* Build configuration list for PBXNativeTarget "tviPhoneLocatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C2B50E6D1BC484A200D6C26F /* Debug */,
+				C2B50E6E1BC484A200D6C26F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C24D514C1BBA1A370073F841 /* Project object */;
+}
