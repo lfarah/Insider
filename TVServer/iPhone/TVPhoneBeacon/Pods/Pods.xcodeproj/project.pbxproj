@@ -1,0 +1,554 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0C8463E0F59724817BE965B672674B6E /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF15AA5A11EC633B9C5061CDAA76F0F8 /* Request.swift */; };
+		0D5EF800E0E2C7ACD77555E8D4B334AC /* ResponseSerialization.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7F19D2C00F96A28C66BADA14C12F11A /* ResponseSerialization.swift */; };
+		2EBB435D3D69C0BBE92112A0DE56FB77 /* ParameterEncoding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C4C4F423C77C9CCD2D854AF28802FEA /* ParameterEncoding.swift */; };
+		33C7EE5D50615BE9110FFDFE4348CD5D /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 690D082659237635DDB9CF7665F1D5C8 /* Alamofire.swift */; };
+		340A8CBAABBB9CE9CF1A9F0DED7FF754 /* Manager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 353A19894039E1C14E68342B711EACC0 /* Manager.swift */; };
+		46867BACC267F76ED6B3B5818D047975 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A51B43FA6A87A400F33E0F62008DD9EB /* MultipartFormData.swift */; };
+		5A115C6EC8233C69E22F844E4F19B01F /* Download.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B9351EBE42734D1412CD21B554B4E24 /* Download.swift */; };
+		66A953082ACE9DB276943B0893DC5ED9 /* Stream.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF98DA2A69B8F91AF0639D6F9E843757 /* Stream.swift */; };
+		68AD8E0274C1747763312BC8455FCF06 /* Pods-TVPhoneBeacon-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AE9C0D7E1A3FDF613A3E550E2C17AEBE /* Pods-TVPhoneBeacon-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6FFDC495C82CD8DC679557C87A0F3E23 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA82022EB7C3D2E98D0AC9C83A35C17 /* Foundation.framework */; };
+		7070AF404F48EC32FAAF103982162D3C /* Pods-TVPhoneBeacon-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 51D9A677D1CEE49482231E37D77DE669 /* Pods-TVPhoneBeacon-dummy.m */; };
+		9938B9BD8F4BE4502919558C73DBE1C9 /* Validation.swift in Sources */ = {isa = PBXBuildFile; fileRef = B78CD59E5B2E9FFBE0F9BC021BF86998 /* Validation.swift */; };
+		A597DBFE60B6F88C3BB50AA6FA808BDC /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0283F2A0863CCD21C223A408504E06EE /* Error.swift */; };
+		BB6F5C29BFC46D4FD51C7AB8E4B92C4B /* ServerTrustPolicy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84D186C013CFBA6D327016DE8CF9409A /* ServerTrustPolicy.swift */; };
+		C3874CA66DEFDDD65A326F26ED04D909 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AFA82022EB7C3D2E98D0AC9C83A35C17 /* Foundation.framework */; };
+		CB5E6E5F7724D8330848676B9DE8C660 /* Alamofire-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3322810F468E971F28F9446D62A70A30 /* Alamofire-dummy.m */; };
+		CCEF66ECAA60AFD3509FC289EABC73D4 /* Result.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E6B74F2B2103CB6E757F78A687E198 /* Result.swift */; };
+		DDF270754639B1BB44F162659E1A2E98 /* Alamofire-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F0885D362A7A27F4FE66E65EDB1A60E0 /* Alamofire-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC42F306DEC08E9B9DBF2C8ECF23567C /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D54CFC13F15B957D0B3D72D38F53B5E /* Response.swift */; };
+		F999CDC2D43ADC5B40F0206F28004220 /* Upload.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F39C15EF78F10BC40A8C4EBA71782BF /* Upload.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D047F657EBB929A542C66EFE62EBAB1C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 73D22032F4BC699E999B754A07A0E606;
+			remoteInfo = Alamofire;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0283F2A0863CCD21C223A408504E06EE /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Source/Error.swift; sourceTree = "<group>"; };
+		1786F2A6D2C9281BCB30E05F7320CD66 /* Pods-TVPhoneBeacon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TVPhoneBeacon.release.xcconfig"; sourceTree = "<group>"; };
+		23DF2B468E43DDB058C11253432303D1 /* Alamofire-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Alamofire-Private.xcconfig"; sourceTree = "<group>"; };
+		2F39C15EF78F10BC40A8C4EBA71782BF /* Upload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Upload.swift; path = Source/Upload.swift; sourceTree = "<group>"; };
+		3322810F468E971F28F9446D62A70A30 /* Alamofire-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Alamofire-dummy.m"; sourceTree = "<group>"; };
+		353A19894039E1C14E68342B711EACC0 /* Manager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Manager.swift; path = Source/Manager.swift; sourceTree = "<group>"; };
+		3C4C4F423C77C9CCD2D854AF28802FEA /* ParameterEncoding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ParameterEncoding.swift; path = Source/ParameterEncoding.swift; sourceTree = "<group>"; };
+		40EF6EB830243798EE08D98AF66C2054 /* Pods_TVPhoneBeacon.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TVPhoneBeacon.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		46C1A8487A9F9D22B07D3E9E9649D46B /* Pods-TVPhoneBeacon.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-TVPhoneBeacon.modulemap"; sourceTree = "<group>"; };
+		51D9A677D1CEE49482231E37D77DE669 /* Pods-TVPhoneBeacon-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-TVPhoneBeacon-dummy.m"; sourceTree = "<group>"; };
+		524BDD5FA771D32B127CD789F2177818 /* Pods-TVPhoneBeacon-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-TVPhoneBeacon-acknowledgements.markdown"; sourceTree = "<group>"; };
+		5C0043202351989782165199B6D4E734 /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		600D59FC9D161052EC47BDFF794D8B95 /* Alamofire.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Alamofire.modulemap; sourceTree = "<group>"; };
+		690D082659237635DDB9CF7665F1D5C8 /* Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Alamofire.swift; path = Source/Alamofire.swift; sourceTree = "<group>"; };
+		6D54CFC13F15B957D0B3D72D38F53B5E /* Response.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Response.swift; path = Source/Response.swift; sourceTree = "<group>"; };
+		76E0CE5C8CA5A49FD5A3F83829731E79 /* Pods-TVPhoneBeacon-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TVPhoneBeacon-resources.sh"; sourceTree = "<group>"; };
+		7B9351EBE42734D1412CD21B554B4E24 /* Download.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Download.swift; path = Source/Download.swift; sourceTree = "<group>"; };
+		84D186C013CFBA6D327016DE8CF9409A /* ServerTrustPolicy.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ServerTrustPolicy.swift; path = Source/ServerTrustPolicy.swift; sourceTree = "<group>"; };
+		88029B8BF7451151D8B9A569016A27CC /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A51B43FA6A87A400F33E0F62008DD9EB /* MultipartFormData.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartFormData.swift; path = Source/MultipartFormData.swift; sourceTree = "<group>"; };
+		A9BC1AF5D1F815E67C01ABD853871ACC /* Pods-TVPhoneBeacon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-TVPhoneBeacon.debug.xcconfig"; sourceTree = "<group>"; };
+		AE9C0D7E1A3FDF613A3E550E2C17AEBE /* Pods-TVPhoneBeacon-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-TVPhoneBeacon-umbrella.h"; sourceTree = "<group>"; };
+		AFA82022EB7C3D2E98D0AC9C83A35C17 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS8.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		B78CD59E5B2E9FFBE0F9BC021BF86998 /* Validation.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Validation.swift; path = Source/Validation.swift; sourceTree = "<group>"; };
+		B7F19D2C00F96A28C66BADA14C12F11A /* ResponseSerialization.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ResponseSerialization.swift; path = Source/ResponseSerialization.swift; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BF15AA5A11EC633B9C5061CDAA76F0F8 /* Request.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Request.swift; path = Source/Request.swift; sourceTree = "<group>"; };
+		C1F422624B218EC51EA46240D1F1077E /* Alamofire-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-prefix.pch"; sourceTree = "<group>"; };
+		C7F85CD4A453995404A3B592E0D8673C /* Alamofire.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Alamofire.xcconfig; sourceTree = "<group>"; };
+		CF98DA2A69B8F91AF0639D6F9E843757 /* Stream.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Stream.swift; path = Source/Stream.swift; sourceTree = "<group>"; };
+		CFF6FF6804272CA9B35DBA6F46AAA343 /* Pods-TVPhoneBeacon-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-TVPhoneBeacon-frameworks.sh"; sourceTree = "<group>"; };
+		D469DE04A70BC0EBF180849B457E7B31 /* Pods-TVPhoneBeacon-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-TVPhoneBeacon-acknowledgements.plist"; sourceTree = "<group>"; };
+		E3626FFF597017D8F051FB0F7E55636B /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F0885D362A7A27F4FE66E65EDB1A60E0 /* Alamofire-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-umbrella.h"; sourceTree = "<group>"; };
+		F8E6B74F2B2103CB6E757F78A687E198 /* Result.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Result.swift; path = Source/Result.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8C2EC1604810A266005C7BA942B74A4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FFDC495C82CD8DC679557C87A0F3E23 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D81741FDB562B8B07CC3F8C59444E2D9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C3874CA66DEFDDD65A326F26ED04D909 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		20C396BA1B90EEE39D4B19FE012C4F6D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F184050575E69A2DFDB57EA6FE0F668E /* Alamofire */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2BCD82FF5A0B4AEF49ABD2328AFBBB72 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				600D59FC9D161052EC47BDFF794D8B95 /* Alamofire.modulemap */,
+				C7F85CD4A453995404A3B592E0D8673C /* Alamofire.xcconfig */,
+				23DF2B468E43DDB058C11253432303D1 /* Alamofire-Private.xcconfig */,
+				3322810F468E971F28F9446D62A70A30 /* Alamofire-dummy.m */,
+				C1F422624B218EC51EA46240D1F1077E /* Alamofire-prefix.pch */,
+				F0885D362A7A27F4FE66E65EDB1A60E0 /* Alamofire-umbrella.h */,
+				88029B8BF7451151D8B9A569016A27CC /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Alamofire";
+			sourceTree = "<group>";
+		};
+		3E9CA7DFAB085003465B08E61A498F2B /* Pods-TVPhoneBeacon */ = {
+			isa = PBXGroup;
+			children = (
+				E3626FFF597017D8F051FB0F7E55636B /* Info.plist */,
+				46C1A8487A9F9D22B07D3E9E9649D46B /* Pods-TVPhoneBeacon.modulemap */,
+				524BDD5FA771D32B127CD789F2177818 /* Pods-TVPhoneBeacon-acknowledgements.markdown */,
+				D469DE04A70BC0EBF180849B457E7B31 /* Pods-TVPhoneBeacon-acknowledgements.plist */,
+				51D9A677D1CEE49482231E37D77DE669 /* Pods-TVPhoneBeacon-dummy.m */,
+				CFF6FF6804272CA9B35DBA6F46AAA343 /* Pods-TVPhoneBeacon-frameworks.sh */,
+				76E0CE5C8CA5A49FD5A3F83829731E79 /* Pods-TVPhoneBeacon-resources.sh */,
+				AE9C0D7E1A3FDF613A3E550E2C17AEBE /* Pods-TVPhoneBeacon-umbrella.h */,
+				A9BC1AF5D1F815E67C01ABD853871ACC /* Pods-TVPhoneBeacon.debug.xcconfig */,
+				1786F2A6D2C9281BCB30E05F7320CD66 /* Pods-TVPhoneBeacon.release.xcconfig */,
+			);
+			name = "Pods-TVPhoneBeacon";
+			path = "Target Support Files/Pods-TVPhoneBeacon";
+			sourceTree = "<group>";
+		};
+		53F661C0CA7190D2CF05023FB33D61E4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AFA82022EB7C3D2E98D0AC9C83A35C17 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				20C396BA1B90EEE39D4B19FE012C4F6D /* Pods */,
+				CCA510CFBEA2D207524CDA0D73C3B561 /* Products */,
+				E9D76C4B34F8B811A596A20152C35207 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				53F661C0CA7190D2CF05023FB33D61E4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CCA510CFBEA2D207524CDA0D73C3B561 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C0043202351989782165199B6D4E734 /* Alamofire.framework */,
+				40EF6EB830243798EE08D98AF66C2054 /* Pods_TVPhoneBeacon.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9D76C4B34F8B811A596A20152C35207 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				3E9CA7DFAB085003465B08E61A498F2B /* Pods-TVPhoneBeacon */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		F184050575E69A2DFDB57EA6FE0F668E /* Alamofire */ = {
+			isa = PBXGroup;
+			children = (
+				690D082659237635DDB9CF7665F1D5C8 /* Alamofire.swift */,
+				7B9351EBE42734D1412CD21B554B4E24 /* Download.swift */,
+				0283F2A0863CCD21C223A408504E06EE /* Error.swift */,
+				353A19894039E1C14E68342B711EACC0 /* Manager.swift */,
+				A51B43FA6A87A400F33E0F62008DD9EB /* MultipartFormData.swift */,
+				3C4C4F423C77C9CCD2D854AF28802FEA /* ParameterEncoding.swift */,
+				BF15AA5A11EC633B9C5061CDAA76F0F8 /* Request.swift */,
+				6D54CFC13F15B957D0B3D72D38F53B5E /* Response.swift */,
+				B7F19D2C00F96A28C66BADA14C12F11A /* ResponseSerialization.swift */,
+				F8E6B74F2B2103CB6E757F78A687E198 /* Result.swift */,
+				84D186C013CFBA6D327016DE8CF9409A /* ServerTrustPolicy.swift */,
+				CF98DA2A69B8F91AF0639D6F9E843757 /* Stream.swift */,
+				2F39C15EF78F10BC40A8C4EBA71782BF /* Upload.swift */,
+				B78CD59E5B2E9FFBE0F9BC021BF86998 /* Validation.swift */,
+				2BCD82FF5A0B4AEF49ABD2328AFBBB72 /* Support Files */,
+			);
+			path = Alamofire;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		E6554A7E2EA604C712D6E4E776350DD2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDF270754639B1BB44F162659E1A2E98 /* Alamofire-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F08AD45BDB4F9BD8B0CADB439872A927 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				68AD8E0274C1747763312BC8455FCF06 /* Pods-TVPhoneBeacon-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3D577DB65329EB0E743A604DB9EBC2BC /* Pods-TVPhoneBeacon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA6A7E738491391C7717E7A276FE132C /* Build configuration list for PBXNativeTarget "Pods-TVPhoneBeacon" */;
+			buildPhases = (
+				EC4C58A0F5F752F9004A0A41505FE932 /* Sources */,
+				D81741FDB562B8B07CC3F8C59444E2D9 /* Frameworks */,
+				F08AD45BDB4F9BD8B0CADB439872A927 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9E1F8BDCBB56533CC2C3842AF7F8EF68 /* PBXTargetDependency */,
+			);
+			name = "Pods-TVPhoneBeacon";
+			productName = "Pods-TVPhoneBeacon";
+			productReference = 40EF6EB830243798EE08D98AF66C2054 /* Pods_TVPhoneBeacon.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		73D22032F4BC699E999B754A07A0E606 /* Alamofire */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5D47B776EE0DED165B58914DCCB92BEA /* Build configuration list for PBXNativeTarget "Alamofire" */;
+			buildPhases = (
+				C3DC2BB262AB1FBD457DAAEE37117519 /* Sources */,
+				8C2EC1604810A266005C7BA942B74A4C /* Frameworks */,
+				E6554A7E2EA604C712D6E4E776350DD2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Alamofire;
+			productName = Alamofire;
+			productReference = 5C0043202351989782165199B6D4E734 /* Alamofire.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = CCA510CFBEA2D207524CDA0D73C3B561 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				73D22032F4BC699E999B754A07A0E606 /* Alamofire */,
+				3D577DB65329EB0E743A604DB9EBC2BC /* Pods-TVPhoneBeacon */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C3DC2BB262AB1FBD457DAAEE37117519 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CB5E6E5F7724D8330848676B9DE8C660 /* Alamofire-dummy.m in Sources */,
+				33C7EE5D50615BE9110FFDFE4348CD5D /* Alamofire.swift in Sources */,
+				5A115C6EC8233C69E22F844E4F19B01F /* Download.swift in Sources */,
+				A597DBFE60B6F88C3BB50AA6FA808BDC /* Error.swift in Sources */,
+				340A8CBAABBB9CE9CF1A9F0DED7FF754 /* Manager.swift in Sources */,
+				46867BACC267F76ED6B3B5818D047975 /* MultipartFormData.swift in Sources */,
+				2EBB435D3D69C0BBE92112A0DE56FB77 /* ParameterEncoding.swift in Sources */,
+				0C8463E0F59724817BE965B672674B6E /* Request.swift in Sources */,
+				EC42F306DEC08E9B9DBF2C8ECF23567C /* Response.swift in Sources */,
+				0D5EF800E0E2C7ACD77555E8D4B334AC /* ResponseSerialization.swift in Sources */,
+				CCEF66ECAA60AFD3509FC289EABC73D4 /* Result.swift in Sources */,
+				BB6F5C29BFC46D4FD51C7AB8E4B92C4B /* ServerTrustPolicy.swift in Sources */,
+				66A953082ACE9DB276943B0893DC5ED9 /* Stream.swift in Sources */,
+				F999CDC2D43ADC5B40F0206F28004220 /* Upload.swift in Sources */,
+				9938B9BD8F4BE4502919558C73DBE1C9 /* Validation.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC4C58A0F5F752F9004A0A41505FE932 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7070AF404F48EC32FAAF103982162D3C /* Pods-TVPhoneBeacon-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9E1F8BDCBB56533CC2C3842AF7F8EF68 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Alamofire;
+			target = 73D22032F4BC699E999B754A07A0E606 /* Alamofire */;
+			targetProxy = D047F657EBB929A542C66EFE62EBAB1C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		49023EB019F95D19EAD9EC40DEAE864A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23DF2B468E43DDB058C11253432303D1 /* Alamofire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 3.0.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 3;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8A8E077C36DFF1ED3D4444918581500C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A9BC1AF5D1F815E67C01ABD853871ACC /* Pods-TVPhoneBeacon.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TVPhoneBeacon/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TVPhoneBeacon/Pods-TVPhoneBeacon.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TVPhoneBeacon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9F453F3BFD27CCAA0ADE51C3DEA90AF0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1786F2A6D2C9281BCB30E05F7320CD66 /* Pods-TVPhoneBeacon.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-TVPhoneBeacon/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Pods-TVPhoneBeacon/Pods-TVPhoneBeacon.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_TVPhoneBeacon;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		EC5CC0DF83F0A6D3611E021403B9694E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 23DF2B468E43DDB058C11253432303D1 /* Alamofire-Private.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 3.0.0;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 3;
+				DYLIB_CURRENT_VERSION = "$(CURRENT_PROJECT_VERSION)";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Alamofire/Alamofire-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Alamofire/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Alamofire/Alamofire.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Alamofire;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FB45FFD90572718D82AB9092B750F0CA /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A70CDAD61F90AC503C7D04CC22DA2923 /* Debug */,
+				FB45FFD90572718D82AB9092B750F0CA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5D47B776EE0DED165B58914DCCB92BEA /* Build configuration list for PBXNativeTarget "Alamofire" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				49023EB019F95D19EAD9EC40DEAE864A /* Debug */,
+				EC5CC0DF83F0A6D3611E021403B9694E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA6A7E738491391C7717E7A276FE132C /* Build configuration list for PBXNativeTarget "Pods-TVPhoneBeacon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8A8E077C36DFF1ED3D4444918581500C /* Debug */,
+				9F453F3BFD27CCAA0ADE51C3DEA90AF0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_TVPhoneBeacon {
+  umbrella header "Pods-TVPhoneBeacon-umbrella.h"
+
+  export *
+  module * { export * }
+}

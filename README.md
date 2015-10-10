@@ -1,2 +1,0 @@
-# Insider
-Insider for tvOS
