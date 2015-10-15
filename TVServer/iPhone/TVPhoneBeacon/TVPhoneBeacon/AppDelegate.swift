@@ -22,18 +22,18 @@ class AppDelegate: UIResponder, UIApplicationDelegate,CLLocationManagerDelegate,
     
 
     
-//    if let user = NSUserDefaults.standardUserDefaults().objectForKey("user")
-//    {
-//    self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
-//    
-//    let storyboard = UIStoryboard(name: "Main", bundle: nil)
-//    
-//    let initialViewController = storyboard.instantiateViewControllerWithIdentifier("mainTab") as! UITabBarController
-//    
-//    self.window?.rootViewController = initialViewController
-//    self.window?.makeKeyAndVisible()
-//    }
-//    
+    if let user = NSUserDefaults.standardUserDefaults().objectForKey("user")
+    {
+    self.window = UIWindow(frame: UIScreen.mainScreen().bounds)
+    
+    let storyboard = UIStoryboard(name: "Main", bundle: nil)
+    
+    let initialViewController = storyboard.instantiateViewControllerWithIdentifier("mainTab") as! UITabBarController
+    
+    self.window?.rootViewController = initialViewController
+    self.window?.makeKeyAndVisible()
+    }
+    
     
     
     return true

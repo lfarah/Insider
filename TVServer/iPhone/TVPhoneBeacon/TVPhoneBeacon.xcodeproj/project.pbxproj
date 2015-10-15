@@ -440,6 +440,7 @@
 				TargetAttributes = {
 					C25C3D841BC4862300E148C8 = {
 						CreatedOnToolsVersion = 7.0;
+						DevelopmentTeam = BRY2B7NKP2;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
 								enabled = 0;
@@ -755,10 +756,13 @@
 			baseConfigurationReference = 1694CEBA67B98E91B7B652D5 /* Pods-TVPhoneBeacon.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TVPhoneBeacon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.TVPhoneBeacon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "TVPhoneBeacon-bridging-header.h";
 			};
 			name = Debug;
@@ -768,10 +772,13 @@
 			baseConfigurationReference = 090C18BBFF3950DD9A69A854 /* Pods-TVPhoneBeacon.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				INFOPLIST_FILE = TVPhoneBeacon/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.TVPhoneBeacon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
 				SWIFT_OBJC_BRIDGING_HEADER = "TVPhoneBeacon-bridging-header.h";
 			};
 			name = Release;
