@@ -7,19 +7,62 @@
 //
 
 import UIKit
+import AVFoundation
 
 private let cellIdentifier = "MY_CELL"
 
 @objc(ViewController)
+
+
 class ViewController: UICollectionViewController {
   var cellCount: Int = Int()
+  var audioPlayer = AVAudioPlayer()
   
   
   var arrUsers = [NSDictionary]()
   
-  
+  func playSound(name:String)
+  {
+//    if self.arrUsers.count != arr.count
+//    {
+//      var alertSound = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("cat_meow2", ofType: "wav")!)
+//      print(alertSound)
+//      
+//      // Removed deprecated use of AVAudioSessionDelegate protocol
+//      do
+//      {
+//        try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
+//        try AVAudioSession.sharedInstance().setActive(true)
+//      }
+//      catch
+//      {
+//        
+//      }
+//      
+//      do
+//      {
+//        self.audioPlayer = try AVAudioPlayer(contentsOfURL: alertSound)
+//      }
+//      catch
+//      {
+//        
+//      }
+//      self.audioPlayer.prepareToPlay()
+//      self.audioPlayer.play()
+//    }
+    var mySpeechSynthesizer:AVSpeechSynthesizer = AVSpeechSynthesizer()
+    var myString:String = "Welcome, \(name)"
+    var mySpeechUtterance:AVSpeechUtterance = AVSpeechUtterance(string:myString)
+    
+    print("\(mySpeechUtterance.speechString)")
+    print("My string - \(myString)")
+    
+    mySpeechSynthesizer .speakUtterance(mySpeechUtterance)
+
+  }
   func fetch()
   {
+//    self.playSound()
     print("timer")
     let url = NSURL(string: "https://frozen-island-1739.herokuapp.com")
     
@@ -28,14 +71,45 @@ class ViewController: UICollectionViewController {
       
       do
       {
-        self.arrUsers = try NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.MutableContainers) as! [NSDictionary]
+        var arr = try NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.MutableContainers) as! [NSDictionary]
+        
+        for user in arr
+        {
+          if !(user["isActive"] as! Bool)
+          {
+            arr.removeAtIndex(arr.indexOf(user)!)
+          }
+        }
+        print(arr.count)
+        print(self.arrUsers.count)
+        
+        if arr.count != self.arrUsers.count
+        {
+          for user in arr
+          {
+            if !(self.arrUsers.contains(user))
+            {
+              self.playSound(user["name"] as! String)
+
+            }
+          }
+        }
+        
+        
+        self.arrUsers = arr
+        
+        var i = 0
         for user in self.arrUsers
         {
           if !(user["isActive"] as! Bool)
           {
             self.arrUsers.removeAtIndex(self.arrUsers.indexOf(user)!)
+            i += 1
           }
         }
+        
+
+        
       }
       catch
       {
@@ -45,10 +119,10 @@ class ViewController: UICollectionViewController {
       self.cellCount = self.arrUsers.count
       self.collectionView?.reloadData()
       print(self.arrUsers)
-
+      
     }
     
-
+    
     
   }
   
@@ -75,7 +149,8 @@ class ViewController: UICollectionViewController {
     return self.cellCount
   }
   
-  override func collectionView(cv: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+  override func collectionView(cv: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell
+  {
     
     //      label
     //      myLabel.text = "D"
@@ -83,12 +158,20 @@ class ViewController: UICollectionViewController {
     let cell = cv.dequeueReusableCellWithReuseIdentifier(cellIdentifier, forIndexPath: indexPath)
     
     let view = UIView(frame: cell.frame)
+    var label = UILabel()
+    if arrUsers.count == 1
+    {
+      label = UILabel(frame: CGRectMake(0, 400, cell.frame.width, cell.frame.height))
+    }
+    else
+    {
+      label = UILabel(frame: CGRectMake(0, CGFloat(500 / Double(self.cellCount)), cell.frame.width, cell.frame.height))
+    }
     
-    let label = UILabel(frame: CGRectMake(0, CGFloat(500 / Double(self.cellCount)), cell.frame.width, cell.frame.height))
     if arrUsers.count > 0
     {
-    let user = arrUsers[indexPath.row]
-    label.text = user["name"] as! String
+      let user = arrUsers[indexPath.row]
+      label.text = user["name"] as! String
     }
     label.font = UIFont(name: "HelveticaNeue", size: CGFloat(200 / self.cellCount))
     label.textAlignment = .Center

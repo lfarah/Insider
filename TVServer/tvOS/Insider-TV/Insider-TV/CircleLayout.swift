@@ -20,22 +20,28 @@ class CircleLayout: UICollectionViewLayout,UICollectionViewDelegate {
     override func prepareLayout() {
         super.prepareLayout()
       
-      if cellCount > 0
+      if cellCount == 1
       {
+        let size = self.collectionView!.frame.size
+        cellCount = self.collectionView!.numberOfItemsInSection(0)
+        center = CGPointMake(size.width / 2.0, size.height / 2.0)
+        radius = 0
       }
+      else
+      {
         let size = self.collectionView!.frame.size
         cellCount = self.collectionView!.numberOfItemsInSection(0)
         center = CGPointMake(size.width / 2.0, size.height / 2.0)
         radius = min(size.width, size.height) / 2.8
-      
-      if self.collectionView?.numberOfItemsInSection(0)>0
+      }
+      if self.collectionView?.numberOfItemsInSection(0)>1
       {
         let num =  900 / (self.collectionView?.numberOfItemsInSection(0))!
         ITEM_SIZE = CGFloat(num)
       }
       else
       {
-        ITEM_SIZE = 600
+        ITEM_SIZE = 700
       }
     }
   

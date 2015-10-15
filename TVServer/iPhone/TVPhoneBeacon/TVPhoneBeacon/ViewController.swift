@@ -10,10 +10,10 @@ import UIKit
 import UIKit
 import CoreLocation
 import Alamofire
-
 class ViewController: UIViewController,CLLocationManagerDelegate {
   
   
+  @IBOutlet weak var imgvUser: UIImageView!
   @IBOutlet weak var txtEmail: UITextField!
   @IBOutlet weak var txtPassword: UITextField!
   
@@ -24,30 +24,14 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
   override func viewDidLoad() {
     super.viewDidLoad()
     // Do any additional setup after loading the view, typically from a nib.
-    
-    self.image()
-    
   }
   
-  func image()
+  @IBAction func butAddImageTapped(sender: AnyObject)
   {
-    let image = UIImage(named: "profile-circle.png")
-    if let data = UIImagePNGRepresentation(image!) as NSData?
-    {
-      Alamofire.request(.GET, "http://0.0.0.0:5000/upload", parameters: ["file": data])
-        .responseJSON { response in
-          print(response.request)  // original URL request
-          print(response.response) // URL response
-          print(response.data)     // server data
-          print(response.result)   // result of response serialization
-          
-          if let JSON = response.result.value {
-            print("JSON: \(JSON)")
-          }
-      }
-    }
+    let navigationController = TGCameraNavigationController.newWithCameraDelegate(self)
+    self.presentViewController(navigationController, animated: true, completion: nil)
   }
-  func fetch()
+    func fetch()
   {
     NSUserDefaults.standardUserDefaults().setObject(self.txtEmail.text, forKey: "user")
     
@@ -81,7 +65,7 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
   
 }
 
-//MARK - UITextFieldDelegate
+//MARK: - UITextFieldDelegate
 extension ViewController:UITextFieldDelegate
 {
   func textFieldShouldReturn(textField: UITextField) -> Bool {
@@ -102,6 +86,41 @@ extension ViewController:UITextFieldDelegate
       break;
     }
     return true
+  }
+}
+
+//MARK: - TGCameraDelegate
+extension ViewController:TGCameraDelegate
+{
+  func cameraDidCancel()
+  {
+    self.dismissViewControllerAnimated(true, completion: nil)
+  }
+  func cameraDidTakePhoto(image: UIImage!)
+  {
+    self.imgvUser.image = image
+    
+    //Making images round
+    self.imgvUser.layer.cornerRadius = self.imgvUser.frame.size.width / 2;
+    self.imgvUser.clipsToBounds = true;
+    //border
+    self.imgvUser.layer.borderWidth = 2.0;
+    self.imgvUser.layer.borderColor = UIColor.whiteColor().CGColor
+    
+    self.dismissViewControllerAnimated(true, completion: nil)
+  }
+  func cameraDidSelectAlbumPhoto(image: UIImage!)
+  {
+    self.imgvUser.image = image
+    
+    //Making images round
+    self.imgvUser.layer.cornerRadius = self.imgvUser.frame.size.width / 2;
+    self.imgvUser.clipsToBounds = true;
+    //border
+    self.imgvUser.layer.borderWidth = 2.0;
+    self.imgvUser.layer.borderColor = UIColor.whiteColor().CGColor
+    
+    self.dismissViewControllerAnimated(true, completion: nil)
   }
 }
 

@@ -7,6 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C21621EF1BCC6F1E004352DD /* UIImage+CameraFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621B31BCC6F1E004352DD /* UIImage+CameraFilters.m */; settings = {ASSET_TAGS = (); }; };
+		C21621F01BCC6F1E004352DD /* TGCameraAuthorizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621B61BCC6F1E004352DD /* TGCameraAuthorizationViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C21621F11BCC6F1E004352DD /* TGCameraNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621B81BCC6F1E004352DD /* TGCameraNavigationController.m */; settings = {ASSET_TAGS = (); }; };
+		C21621F21BCC6F1E004352DD /* TGCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621BA1BCC6F1E004352DD /* TGCameraViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C21621F31BCC6F1E004352DD /* TGPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621BC1BCC6F1E004352DD /* TGPhotoViewController.m */; settings = {ASSET_TAGS = (); }; };
+		C21621F41BCC6F1E004352DD /* TGAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621BF1BCC6F1E004352DD /* TGAlbum.m */; settings = {ASSET_TAGS = (); }; };
+		C21621F51BCC6F1E004352DD /* TGAssetsLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621C11BCC6F1E004352DD /* TGAssetsLibrary.m */; settings = {ASSET_TAGS = (); }; };
+		C21621F61BCC6F1E004352DD /* TGCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621C31BCC6F1E004352DD /* TGCamera.m */; settings = {ASSET_TAGS = (); }; };
+		C21621F71BCC6F1E004352DD /* TGCameraColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621C51BCC6F1E004352DD /* TGCameraColor.m */; settings = {ASSET_TAGS = (); }; };
+		C21621F81BCC6F1E004352DD /* TGCameraFlash.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621C71BCC6F1E004352DD /* TGCameraFlash.m */; settings = {ASSET_TAGS = (); }; };
+		C21621F91BCC6F1E004352DD /* TGCameraFocus.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621C91BCC6F1E004352DD /* TGCameraFocus.m */; settings = {ASSET_TAGS = (); }; };
+		C21621FA1BCC6F1E004352DD /* TGCameraGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621CC1BCC6F1E004352DD /* TGCameraGrid.m */; settings = {ASSET_TAGS = (); }; };
+		C21621FB1BCC6F1E004352DD /* TGCameraShot.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621CE1BCC6F1E004352DD /* TGCameraShot.m */; settings = {ASSET_TAGS = (); }; };
+		C21621FC1BCC6F1E004352DD /* TGCameraToggle.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621D01BCC6F1E004352DD /* TGCameraToggle.m */; settings = {ASSET_TAGS = (); }; };
+		C21621FD1BCC6F1E004352DD /* TGAssetImageFile.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621D31BCC6F1E004352DD /* TGAssetImageFile.m */; settings = {ASSET_TAGS = (); }; };
+		C21621FE1BCC6F1E004352DD /* TGCameraFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621D61BCC6F1E004352DD /* TGCameraFilterView.m */; settings = {ASSET_TAGS = (); }; };
+		C21621FF1BCC6F1E004352DD /* TGCameraFocusView.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621D81BCC6F1E004352DD /* TGCameraFocusView.m */; settings = {ASSET_TAGS = (); }; };
+		C21622001BCC6F1E004352DD /* TGCameraGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621DA1BCC6F1E004352DD /* TGCameraGridView.m */; settings = {ASSET_TAGS = (); }; };
+		C21622011BCC6F1E004352DD /* TGCameraSlideDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621DC1BCC6F1E004352DD /* TGCameraSlideDownView.m */; settings = {ASSET_TAGS = (); }; };
+		C21622021BCC6F1E004352DD /* TGCameraSlideUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621DE1BCC6F1E004352DD /* TGCameraSlideUpView.m */; settings = {ASSET_TAGS = (); }; };
+		C21622031BCC6F1E004352DD /* TGCameraSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621E01BCC6F1E004352DD /* TGCameraSlideView.m */; settings = {ASSET_TAGS = (); }; };
+		C21622041BCC6F1E004352DD /* TGTintedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621E21BCC6F1E004352DD /* TGTintedButton.m */; settings = {ASSET_TAGS = (); }; };
+		C21622051BCC6F1E004352DD /* TGTintedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621E41BCC6F1E004352DD /* TGTintedLabel.m */; settings = {ASSET_TAGS = (); }; };
+		C21622061BCC6F1E004352DD /* TGCameraAuthorizationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C21621E61BCC6F1E004352DD /* TGCameraAuthorizationViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		C21622071BCC6F1E004352DD /* TGCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C21621E81BCC6F1E004352DD /* TGCameraViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		C21622081BCC6F1E004352DD /* TGPhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C21621EA1BCC6F1E004352DD /* TGPhotoViewController.xib */; settings = {ASSET_TAGS = (); }; };
+		C21622091BCC6F1E004352DD /* TGCameraViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C21621ED1BCC6F1E004352DD /* TGCameraViewController.bundle */; settings = {ASSET_TAGS = (); }; };
+		C216220A1BCC6F1E004352DD /* TGCameraViewController.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C21621EE1BCC6F1E004352DD /* TGCameraViewController.xcassets */; settings = {ASSET_TAGS = (); }; };
+		C21622101BCC7868004352DD /* arrow483.png in Resources */ = {isa = PBXBuildFile; fileRef = C216220F1BCC7868004352DD /* arrow483.png */; settings = {ASSET_TAGS = (); }; };
+		C21622121BCC78C0004352DD /* blueetooth.png in Resources */ = {isa = PBXBuildFile; fileRef = C21622111BCC78C0004352DD /* blueetooth.png */; settings = {ASSET_TAGS = (); }; };
+		C21796CA1BD069D400D3BF8D /* TableInsideUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21796C91BD069D400D3BF8D /* TableInsideUsersViewController.swift */; settings = {ASSET_TAGS = (); }; };
 		C25C3D891BC4862300E148C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25C3D881BC4862300E148C8 /* AppDelegate.swift */; };
 		C25C3D8B1BC4862300E148C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25C3D8A1BC4862300E148C8 /* ViewController.swift */; };
 		C25C3D8E1BC4862300E148C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C25C3D8C1BC4862300E148C8 /* Main.storyboard */; };
@@ -39,6 +70,62 @@
 /* Begin PBXFileReference section */
 		090C18BBFF3950DD9A69A854 /* Pods-TVPhoneBeacon.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVPhoneBeacon.release.xcconfig"; path = "Pods/Target Support Files/Pods-TVPhoneBeacon/Pods-TVPhoneBeacon.release.xcconfig"; sourceTree = "<group>"; };
 		1694CEBA67B98E91B7B652D5 /* Pods-TVPhoneBeacon.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TVPhoneBeacon.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TVPhoneBeacon/Pods-TVPhoneBeacon.debug.xcconfig"; sourceTree = "<group>"; };
+		C21621B21BCC6F1E004352DD /* UIImage+CameraFilters.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+CameraFilters.h"; sourceTree = "<group>"; };
+		C21621B31BCC6F1E004352DD /* UIImage+CameraFilters.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+CameraFilters.m"; sourceTree = "<group>"; };
+		C21621B51BCC6F1E004352DD /* TGCameraAuthorizationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCameraAuthorizationViewController.h; sourceTree = "<group>"; };
+		C21621B61BCC6F1E004352DD /* TGCameraAuthorizationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCameraAuthorizationViewController.m; sourceTree = "<group>"; };
+		C21621B71BCC6F1E004352DD /* TGCameraNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCameraNavigationController.h; sourceTree = "<group>"; };
+		C21621B81BCC6F1E004352DD /* TGCameraNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCameraNavigationController.m; sourceTree = "<group>"; };
+		C21621B91BCC6F1E004352DD /* TGCameraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCameraViewController.h; sourceTree = "<group>"; };
+		C21621BA1BCC6F1E004352DD /* TGCameraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCameraViewController.m; sourceTree = "<group>"; };
+		C21621BB1BCC6F1E004352DD /* TGPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGPhotoViewController.h; sourceTree = "<group>"; };
+		C21621BC1BCC6F1E004352DD /* TGPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGPhotoViewController.m; sourceTree = "<group>"; };
+		C21621BE1BCC6F1E004352DD /* TGAlbum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGAlbum.h; sourceTree = "<group>"; };
+		C21621BF1BCC6F1E004352DD /* TGAlbum.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGAlbum.m; sourceTree = "<group>"; };
+		C21621C01BCC6F1E004352DD /* TGAssetsLibrary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGAssetsLibrary.h; sourceTree = "<group>"; };
+		C21621C11BCC6F1E004352DD /* TGAssetsLibrary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGAssetsLibrary.m; sourceTree = "<group>"; };
+		C21621C21BCC6F1E004352DD /* TGCamera.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCamera.h; sourceTree = "<group>"; };
+		C21621C31BCC6F1E004352DD /* TGCamera.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCamera.m; sourceTree = "<group>"; };
+		C21621C41BCC6F1E004352DD /* TGCameraColor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCameraColor.h; sourceTree = "<group>"; };
+		C21621C51BCC6F1E004352DD /* TGCameraColor.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCameraColor.m; sourceTree = "<group>"; };
+		C21621C61BCC6F1E004352DD /* TGCameraFlash.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCameraFlash.h; sourceTree = "<group>"; };
+		C21621C71BCC6F1E004352DD /* TGCameraFlash.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCameraFlash.m; sourceTree = "<group>"; };
+		C21621C81BCC6F1E004352DD /* TGCameraFocus.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCameraFocus.h; sourceTree = "<group>"; };
+		C21621C91BCC6F1E004352DD /* TGCameraFocus.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCameraFocus.m; sourceTree = "<group>"; };
+		C21621CA1BCC6F1E004352DD /* TGCameraFunctions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCameraFunctions.h; sourceTree = "<group>"; };
+		C21621CB1BCC6F1E004352DD /* TGCameraGrid.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCameraGrid.h; sourceTree = "<group>"; };
+		C21621CC1BCC6F1E004352DD /* TGCameraGrid.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCameraGrid.m; sourceTree = "<group>"; };
+		C21621CD1BCC6F1E004352DD /* TGCameraShot.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCameraShot.h; sourceTree = "<group>"; };
+		C21621CE1BCC6F1E004352DD /* TGCameraShot.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCameraShot.m; sourceTree = "<group>"; };
+		C21621CF1BCC6F1E004352DD /* TGCameraToggle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCameraToggle.h; sourceTree = "<group>"; };
+		C21621D01BCC6F1E004352DD /* TGCameraToggle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCameraToggle.m; sourceTree = "<group>"; };
+		C21621D21BCC6F1E004352DD /* TGAssetImageFile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGAssetImageFile.h; sourceTree = "<group>"; };
+		C21621D31BCC6F1E004352DD /* TGAssetImageFile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGAssetImageFile.m; sourceTree = "<group>"; };
+		C21621D51BCC6F1E004352DD /* TGCameraFilterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCameraFilterView.h; sourceTree = "<group>"; };
+		C21621D61BCC6F1E004352DD /* TGCameraFilterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCameraFilterView.m; sourceTree = "<group>"; };
+		C21621D71BCC6F1E004352DD /* TGCameraFocusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCameraFocusView.h; sourceTree = "<group>"; };
+		C21621D81BCC6F1E004352DD /* TGCameraFocusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCameraFocusView.m; sourceTree = "<group>"; };
+		C21621D91BCC6F1E004352DD /* TGCameraGridView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCameraGridView.h; sourceTree = "<group>"; };
+		C21621DA1BCC6F1E004352DD /* TGCameraGridView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCameraGridView.m; sourceTree = "<group>"; };
+		C21621DB1BCC6F1E004352DD /* TGCameraSlideDownView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCameraSlideDownView.h; sourceTree = "<group>"; };
+		C21621DC1BCC6F1E004352DD /* TGCameraSlideDownView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCameraSlideDownView.m; sourceTree = "<group>"; };
+		C21621DD1BCC6F1E004352DD /* TGCameraSlideUpView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCameraSlideUpView.h; sourceTree = "<group>"; };
+		C21621DE1BCC6F1E004352DD /* TGCameraSlideUpView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCameraSlideUpView.m; sourceTree = "<group>"; };
+		C21621DF1BCC6F1E004352DD /* TGCameraSlideView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGCameraSlideView.h; sourceTree = "<group>"; };
+		C21621E01BCC6F1E004352DD /* TGCameraSlideView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGCameraSlideView.m; sourceTree = "<group>"; };
+		C21621E11BCC6F1E004352DD /* TGTintedButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGTintedButton.h; sourceTree = "<group>"; };
+		C21621E21BCC6F1E004352DD /* TGTintedButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGTintedButton.m; sourceTree = "<group>"; };
+		C21621E31BCC6F1E004352DD /* TGTintedLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TGTintedLabel.h; sourceTree = "<group>"; };
+		C21621E41BCC6F1E004352DD /* TGTintedLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TGTintedLabel.m; sourceTree = "<group>"; };
+		C21621E71BCC6F1E004352DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/TGCameraAuthorizationViewController.xib; sourceTree = "<group>"; };
+		C21621E91BCC6F1E004352DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/TGCameraViewController.xib; sourceTree = "<group>"; };
+		C21621EB1BCC6F1E004352DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/TGPhotoViewController.xib; sourceTree = "<group>"; };
+		C21621ED1BCC6F1E004352DD /* TGCameraViewController.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = TGCameraViewController.bundle; sourceTree = "<group>"; };
+		C21621EE1BCC6F1E004352DD /* TGCameraViewController.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = TGCameraViewController.xcassets; sourceTree = "<group>"; };
+		C216220E1BCC6F5A004352DD /* TVPhoneBeacon-bridging-header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "TVPhoneBeacon-bridging-header.h"; sourceTree = "<group>"; };
+		C216220F1BCC7868004352DD /* arrow483.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = arrow483.png; sourceTree = "<group>"; };
+		C21622111BCC78C0004352DD /* blueetooth.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = blueetooth.png; sourceTree = "<group>"; };
+		C21796C91BD069D400D3BF8D /* TableInsideUsersViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TableInsideUsersViewController.swift; sourceTree = "<group>"; };
 		C25C3D851BC4862300E148C8 /* TVPhoneBeacon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TVPhoneBeacon.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C25C3D881BC4862300E148C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C25C3D8A1BC4862300E148C8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -92,9 +179,136 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		C21621AF1BCC6F1E004352DD /* TGCameraViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C21621B01BCC6F1E004352DD /* Classes */,
+				C21621EC1BCC6F1E004352DD /* Resources */,
+				C21621EE1BCC6F1E004352DD /* TGCameraViewController.xcassets */,
+			);
+			path = TGCameraViewController;
+			sourceTree = "<group>";
+		};
+		C21621B01BCC6F1E004352DD /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C21621B11BCC6F1E004352DD /* Category */,
+				C21621B41BCC6F1E004352DD /* Control */,
+				C21621BD1BCC6F1E004352DD /* Helper */,
+				C21621D11BCC6F1E004352DD /* Model */,
+				C21621D41BCC6F1E004352DD /* UI */,
+				C21621E51BCC6F1E004352DD /* View */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		C21621B11BCC6F1E004352DD /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				C21621B21BCC6F1E004352DD /* UIImage+CameraFilters.h */,
+				C21621B31BCC6F1E004352DD /* UIImage+CameraFilters.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		C21621B41BCC6F1E004352DD /* Control */ = {
+			isa = PBXGroup;
+			children = (
+				C21621B51BCC6F1E004352DD /* TGCameraAuthorizationViewController.h */,
+				C21621B61BCC6F1E004352DD /* TGCameraAuthorizationViewController.m */,
+				C21621B71BCC6F1E004352DD /* TGCameraNavigationController.h */,
+				C21621B81BCC6F1E004352DD /* TGCameraNavigationController.m */,
+				C21621B91BCC6F1E004352DD /* TGCameraViewController.h */,
+				C21621BA1BCC6F1E004352DD /* TGCameraViewController.m */,
+				C21621BB1BCC6F1E004352DD /* TGPhotoViewController.h */,
+				C21621BC1BCC6F1E004352DD /* TGPhotoViewController.m */,
+			);
+			path = Control;
+			sourceTree = "<group>";
+		};
+		C21621BD1BCC6F1E004352DD /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				C21621BE1BCC6F1E004352DD /* TGAlbum.h */,
+				C21621BF1BCC6F1E004352DD /* TGAlbum.m */,
+				C21621C01BCC6F1E004352DD /* TGAssetsLibrary.h */,
+				C21621C11BCC6F1E004352DD /* TGAssetsLibrary.m */,
+				C21621C21BCC6F1E004352DD /* TGCamera.h */,
+				C21621C31BCC6F1E004352DD /* TGCamera.m */,
+				C21621C41BCC6F1E004352DD /* TGCameraColor.h */,
+				C21621C51BCC6F1E004352DD /* TGCameraColor.m */,
+				C21621C61BCC6F1E004352DD /* TGCameraFlash.h */,
+				C21621C71BCC6F1E004352DD /* TGCameraFlash.m */,
+				C21621C81BCC6F1E004352DD /* TGCameraFocus.h */,
+				C21621C91BCC6F1E004352DD /* TGCameraFocus.m */,
+				C21621CA1BCC6F1E004352DD /* TGCameraFunctions.h */,
+				C21621CB1BCC6F1E004352DD /* TGCameraGrid.h */,
+				C21621CC1BCC6F1E004352DD /* TGCameraGrid.m */,
+				C21621CD1BCC6F1E004352DD /* TGCameraShot.h */,
+				C21621CE1BCC6F1E004352DD /* TGCameraShot.m */,
+				C21621CF1BCC6F1E004352DD /* TGCameraToggle.h */,
+				C21621D01BCC6F1E004352DD /* TGCameraToggle.m */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		C21621D11BCC6F1E004352DD /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				C21621D21BCC6F1E004352DD /* TGAssetImageFile.h */,
+				C21621D31BCC6F1E004352DD /* TGAssetImageFile.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		C21621D41BCC6F1E004352DD /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				C21621D51BCC6F1E004352DD /* TGCameraFilterView.h */,
+				C21621D61BCC6F1E004352DD /* TGCameraFilterView.m */,
+				C21621D71BCC6F1E004352DD /* TGCameraFocusView.h */,
+				C21621D81BCC6F1E004352DD /* TGCameraFocusView.m */,
+				C21621D91BCC6F1E004352DD /* TGCameraGridView.h */,
+				C21621DA1BCC6F1E004352DD /* TGCameraGridView.m */,
+				C21621DB1BCC6F1E004352DD /* TGCameraSlideDownView.h */,
+				C21621DC1BCC6F1E004352DD /* TGCameraSlideDownView.m */,
+				C21621DD1BCC6F1E004352DD /* TGCameraSlideUpView.h */,
+				C21621DE1BCC6F1E004352DD /* TGCameraSlideUpView.m */,
+				C21621DF1BCC6F1E004352DD /* TGCameraSlideView.h */,
+				C21621E01BCC6F1E004352DD /* TGCameraSlideView.m */,
+				C21621E11BCC6F1E004352DD /* TGTintedButton.h */,
+				C21621E21BCC6F1E004352DD /* TGTintedButton.m */,
+				C21621E31BCC6F1E004352DD /* TGTintedLabel.h */,
+				C21621E41BCC6F1E004352DD /* TGTintedLabel.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		C21621E51BCC6F1E004352DD /* View */ = {
+			isa = PBXGroup;
+			children = (
+				C21621E61BCC6F1E004352DD /* TGCameraAuthorizationViewController.xib */,
+				C21621E81BCC6F1E004352DD /* TGCameraViewController.xib */,
+				C21621EA1BCC6F1E004352DD /* TGPhotoViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		C21621EC1BCC6F1E004352DD /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				C21621ED1BCC6F1E004352DD /* TGCameraViewController.bundle */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		C25C3D7C1BC4862300E148C8 = {
 			isa = PBXGroup;
 			children = (
+				C216220F1BCC7868004352DD /* arrow483.png */,
+				C21622111BCC78C0004352DD /* blueetooth.png */,
+				C216220E1BCC6F5A004352DD /* TVPhoneBeacon-bridging-header.h */,
+				C21621AF1BCC6F1E004352DD /* TGCameraViewController */,
 				C25C3D871BC4862300E148C8 /* TVPhoneBeacon */,
 				C25C3D9C1BC4862300E148C8 /* TVPhoneBeaconTests */,
 				C25C3DA71BC4862300E148C8 /* TVPhoneBeaconUITests */,
@@ -121,6 +335,7 @@
 				C25C3D881BC4862300E148C8 /* AppDelegate.swift */,
 				C25C3D8A1BC4862300E148C8 /* ViewController.swift */,
 				C25C3D8C1BC4862300E148C8 /* Main.storyboard */,
+				C21796C91BD069D400D3BF8D /* TableInsideUsersViewController.swift */,
 				C25C3DF11BC72A4700E148C8 /* StatusViewController.swift */,
 				C25C3D8F1BC4862300E148C8 /* Assets.xcassets */,
 				C25C3D911BC4862300E148C8 /* LaunchScreen.storyboard */,
@@ -227,7 +442,7 @@
 						CreatedOnToolsVersion = 7.0;
 						SystemCapabilities = {
 							com.apple.BackgroundModes = {
-								enabled = 1;
+								enabled = 0;
 							};
 						};
 					};
@@ -266,9 +481,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C21622091BCC6F1E004352DD /* TGCameraViewController.bundle in Resources */,
+				C21622101BCC7868004352DD /* arrow483.png in Resources */,
+				C21622061BCC6F1E004352DD /* TGCameraAuthorizationViewController.xib in Resources */,
+				C216220A1BCC6F1E004352DD /* TGCameraViewController.xcassets in Resources */,
 				C25C3D931BC4862300E148C8 /* LaunchScreen.storyboard in Resources */,
+				C21622071BCC6F1E004352DD /* TGCameraViewController.xib in Resources */,
 				C28E98071BC8836D006D26E9 /* profile-circle.png in Resources */,
 				C25C3D901BC4862300E148C8 /* Assets.xcassets in Resources */,
+				C21622121BCC78C0004352DD /* blueetooth.png in Resources */,
+				C21622081BCC6F1E004352DD /* TGPhotoViewController.xib in Resources */,
 				C25C3D8E1BC4862300E148C8 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -342,9 +564,33 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C21621FA1BCC6F1E004352DD /* TGCameraGrid.m in Sources */,
+				C21621EF1BCC6F1E004352DD /* UIImage+CameraFilters.m in Sources */,
+				C21622021BCC6F1E004352DD /* TGCameraSlideUpView.m in Sources */,
+				C21622051BCC6F1E004352DD /* TGTintedLabel.m in Sources */,
+				C21621F71BCC6F1E004352DD /* TGCameraColor.m in Sources */,
 				C25C3D8B1BC4862300E148C8 /* ViewController.swift in Sources */,
 				C25C3DF21BC72A4700E148C8 /* StatusViewController.swift in Sources */,
+				C21621FF1BCC6F1E004352DD /* TGCameraFocusView.m in Sources */,
+				C21621F01BCC6F1E004352DD /* TGCameraAuthorizationViewController.m in Sources */,
+				C21621F41BCC6F1E004352DD /* TGAlbum.m in Sources */,
+				C21621FD1BCC6F1E004352DD /* TGAssetImageFile.m in Sources */,
+				C21796CA1BD069D400D3BF8D /* TableInsideUsersViewController.swift in Sources */,
+				C21621F81BCC6F1E004352DD /* TGCameraFlash.m in Sources */,
+				C21621FC1BCC6F1E004352DD /* TGCameraToggle.m in Sources */,
+				C21622001BCC6F1E004352DD /* TGCameraGridView.m in Sources */,
+				C21621FE1BCC6F1E004352DD /* TGCameraFilterView.m in Sources */,
+				C21622031BCC6F1E004352DD /* TGCameraSlideView.m in Sources */,
+				C21621F51BCC6F1E004352DD /* TGAssetsLibrary.m in Sources */,
+				C21621F91BCC6F1E004352DD /* TGCameraFocus.m in Sources */,
+				C21621F61BCC6F1E004352DD /* TGCamera.m in Sources */,
+				C21621FB1BCC6F1E004352DD /* TGCameraShot.m in Sources */,
 				C25C3D891BC4862300E148C8 /* AppDelegate.swift in Sources */,
+				C21622011BCC6F1E004352DD /* TGCameraSlideDownView.m in Sources */,
+				C21621F11BCC6F1E004352DD /* TGCameraNavigationController.m in Sources */,
+				C21621F31BCC6F1E004352DD /* TGPhotoViewController.m in Sources */,
+				C21621F21BCC6F1E004352DD /* TGCameraViewController.m in Sources */,
+				C21622041BCC6F1E004352DD /* TGTintedButton.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,6 +626,30 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
+		C21621E61BCC6F1E004352DD /* TGCameraAuthorizationViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C21621E71BCC6F1E004352DD /* Base */,
+			);
+			name = TGCameraAuthorizationViewController.xib;
+			sourceTree = "<group>";
+		};
+		C21621E81BCC6F1E004352DD /* TGCameraViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C21621E91BCC6F1E004352DD /* Base */,
+			);
+			name = TGCameraViewController.xib;
+			sourceTree = "<group>";
+		};
+		C21621EA1BCC6F1E004352DD /* TGPhotoViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C21621EB1BCC6F1E004352DD /* Base */,
+			);
+			name = TGPhotoViewController.xib;
+			sourceTree = "<group>";
+		};
 		C25C3D8C1BC4862300E148C8 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -489,6 +759,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.TVPhoneBeacon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TVPhoneBeacon-bridging-header.h";
 			};
 			name = Debug;
 		};
@@ -501,6 +772,7 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = farah.lucas.TVPhoneBeacon;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "TVPhoneBeacon-bridging-header.h";
 			};
 			name = Release;
 		};

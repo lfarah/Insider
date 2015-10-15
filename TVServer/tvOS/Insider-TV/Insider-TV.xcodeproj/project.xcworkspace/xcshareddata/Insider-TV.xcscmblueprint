@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "57D3CF1A9E554F575BBF67C39949CC6301BF8311",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "4CC4C0FA8B2050B826A277B0F34A2091B371D96A" : 0,
+    "57D3CF1A9E554F575BBF67C39949CC6301BF8311" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E3237C5B-0AB2-4B84-B21C-5987A48A4C2A",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "4CC4C0FA8B2050B826A277B0F34A2091B371D96A" : "",
+    "57D3CF1A9E554F575BBF67C39949CC6301BF8311" : "TVServer\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "Insider-TV",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "tvOS\/Insider-TV\/Insider-TV.xcodeproj",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lfarah\/Insider.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "4CC4C0FA8B2050B826A277B0F34A2091B371D96A"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/git.heroku.com\/frozen-island-1739.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "57D3CF1A9E554F575BBF67C39949CC6301BF8311"
+    }
+  ]
+}

@@ -4,7 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
+		<key>AMSmoothAlert.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Alamofire.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>GPUImage.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -17,12 +27,22 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>3D577DB65329EB0E743A604DB9EBC2BC</key>
+		<key>0766E5569678B57E6C58261AC7CB9F00</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>73D22032F4BC699E999B754A07A0E606</key>
+		<key>8970C11B3037D421B04E170AE0C05493</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>A104EA71FD60F50FBF7D451CC67B213F</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BD733D2B799E7A2807A28D0988EF66CB</key>
 		<dict>
 			<key>primary</key>
 			<true/>

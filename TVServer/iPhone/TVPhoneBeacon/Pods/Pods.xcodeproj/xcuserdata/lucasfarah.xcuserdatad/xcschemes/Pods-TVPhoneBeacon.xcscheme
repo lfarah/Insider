@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "2C367872197BD7B15C4F5607"
+               BlueprintIdentifier = "39A93EA3975730F9EB9185E3"
                BuildableName = "Pods_TVPhoneBeacon.framework"
                BlueprintName = "Pods-TVPhoneBeacon"
                ReferencedContainer = "container:Pods.xcodeproj">

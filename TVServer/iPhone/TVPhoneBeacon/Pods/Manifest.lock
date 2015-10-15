@@ -1,10 +1,19 @@
 PODS:
   - Alamofire (3.0.0-beta.3)
+  - AMSmoothAlert (1.1):
+    - GPUImage
+  - EstimoteSDK (3.7.0)
+  - GPUImage (0.1.7)
 
 DEPENDENCIES:
   - Alamofire (~> 3.0.0-beta.3)
+  - AMSmoothAlert (~> 1.0)
+  - EstimoteSDK
 
 SPEC CHECKSUMS:
   Alamofire: c89149e58431f6f94527e8c01f920456afe39bd0
+  AMSmoothAlert: 108cf0fc3eea9256ccfdcd9deaa283999ac1e47e
+  EstimoteSDK: 3ecb389bf661493612a5a70ce1cd8d3c45b4561b
+  GPUImage: 733a5f0fab92df9de1c37ba9df520a833ccb406d
 
 COCOAPODS: 0.38.2
