@@ -78,8 +78,9 @@ extension TableInsideUsersViewController: UITableViewDataSource
     {
       cell = UITableViewCell(style:.Default, reuseIdentifier: "cell")
     }
+    let user = arrUsersInside[indexPath.row]
     // setup cell without force unwrapping it
-    cell.textLabel!.text = "Swift"
+    cell.textLabel!.text = user["name"] as? String
     return cell
   }
   

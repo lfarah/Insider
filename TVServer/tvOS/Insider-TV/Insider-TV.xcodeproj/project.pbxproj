@@ -22,6 +22,7 @@
 		C20C0F771BC7316F006E4156 /* Profile+Photo+-+Circle.jpg in Resources */ = {isa = PBXBuildFile; fileRef = C20C0F761BC7316F006E4156 /* Profile+Photo+-+Circle.jpg */; };
 		C265F5FA1BCF2A1A007097CF /* cat_meow2.wav in Resources */ = {isa = PBXBuildFile; fileRef = C265F5F91BCF2A1A007097CF /* cat_meow2.wav */; };
 		C2EA25671BC72F9C00AC539D /* profile-picture-round-e1410459370598.png in Resources */ = {isa = PBXBuildFile; fileRef = C2EA25661BC72F9C00AC539D /* profile-picture-round-e1410459370598.png */; };
+		C2FEB1C31BD9B3E300B1F3D2 /* BG.png in Resources */ = {isa = PBXBuildFile; fileRef = C2FEB1C21BD9B3E300B1F3D2 /* BG.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		C20C0F761BC7316F006E4156 /* Profile+Photo+-+Circle.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "Profile+Photo+-+Circle.jpg"; sourceTree = "<group>"; };
 		C265F5F91BCF2A1A007097CF /* cat_meow2.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = cat_meow2.wav; sourceTree = "<group>"; };
 		C2EA25661BC72F9C00AC539D /* profile-picture-round-e1410459370598.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "profile-picture-round-e1410459370598.png"; sourceTree = "<group>"; };
+		C2FEB1C21BD9B3E300B1F3D2 /* BG.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BG.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 		298F0D7E1BC727C500B225F6 /* Insider-TV */ = {
 			isa = PBXGroup;
 			children = (
+				C2FEB1C21BD9B3E300B1F3D2 /* BG.png */,
 				C265F5F91BCF2A1A007097CF /* cat_meow2.wav */,
 				C2EA25661BC72F9C00AC539D /* profile-picture-round-e1410459370598.png */,
 				C20C0F721BC7314F006E4156 /* profile-circle.png */,
@@ -174,6 +177,7 @@
 			files = (
 				C20C0F751BC73160006E4156 /* TomAndersCircleProfile.png in Resources */,
 				C2EA25671BC72F9C00AC539D /* profile-picture-round-e1410459370598.png in Resources */,
+				C2FEB1C31BD9B3E300B1F3D2 /* BG.png in Resources */,
 				C20C0F771BC7316F006E4156 /* Profile+Photo+-+Circle.jpg in Resources */,
 				C20C0F731BC7314F006E4156 /* profile-circle.png in Resources */,
 				298F0D871BC727C600B225F6 /* Assets.xcassets in Resources */,

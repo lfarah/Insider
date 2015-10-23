@@ -4,8 +4,8 @@ GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
 HEADER_SEARCH_PATHS = "${PODS_ROOT}/Headers/EstimoteSDK" "${PODS_ROOT}/Headers/Public" "${PODS_ROOT}/Headers/Public/EstimoteSDK" "${PODS_ROOT}/Headers/Public/EstimoteSDK/EstimoteSDK" "${PODS_ROOT}/Headers/EstimoteSDK"
 LD_RUNPATH_SEARCH_PATHS = $(inherited) '@executable_path/Frameworks' '@loader_path/Frameworks'
 LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/EstimoteSDK" "$(PODS_ROOT)/EstimoteSDK"
-OTHER_CFLAGS = $(inherited) -iquote "$CONFIGURATION_BUILD_DIR/AMSmoothAlert.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/Alamofire.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/GPUImage.framework/Headers" -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/EstimoteSDK" -isystem "${PODS_ROOT}/Headers/Public/EstimoteSDK/EstimoteSDK"
-OTHER_LDFLAGS = $(inherited) -framework "AMSmoothAlert" -framework "Alamofire" -framework "CoreBluetooth" -framework "CoreLocation" -framework "EstimoteSDK" -framework "Foundation" -framework "GPUImage" -framework "MobileCoreServices" -framework "SystemConfiguration" -framework "UIKit"
+OTHER_CFLAGS = $(inherited) -iquote "$CONFIGURATION_BUILD_DIR/AMSmoothAlert.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/Alamofire.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/Bolts.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/GPUImage.framework/Headers" -iquote "$CONFIGURATION_BUILD_DIR/Parse.framework/Headers" -isystem "${PODS_ROOT}/Headers/Public" -isystem "${PODS_ROOT}/Headers/Public/EstimoteSDK" -isystem "${PODS_ROOT}/Headers/Public/EstimoteSDK/EstimoteSDK"
+OTHER_LDFLAGS = $(inherited) -framework "AMSmoothAlert" -framework "Alamofire" -framework "Bolts" -framework "CoreBluetooth" -framework "CoreLocation" -framework "EstimoteSDK" -framework "Foundation" -framework "GPUImage" -framework "MobileCoreServices" -framework "Parse" -framework "SystemConfiguration" -framework "UIKit"
 OTHER_SWIFT_FLAGS = $(inherited) "-D" "COCOAPODS"
 PODS_FRAMEWORK_BUILD_PATH = $(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods-TVPhoneBeacon
 PODS_ROOT = ${SRCROOT}/Pods

@@ -11,7 +11,7 @@ def index():
     with open('users.json',"r") as data_file:    
         data = json.load(data_file)
         return json.dumps(data)
-
+3
 def str_to_bool(s):
     if s == 'true':
          return True
@@ -26,8 +26,10 @@ def get_obj_index():
     userEmail = str(request.args['email'])
     userPassword = str(request.args['password'])
     userName = str(request.args['name'])
+    userPicture = str(request.args['pictureURL'])
 
-    userToAdd = {"email":userEmail,"password":userPassword,"name":userName,"isActive":False}
+
+    userToAdd = {"email":userEmail,"password":userPassword,"name":userName,"pictureURL":userPicture,"isActive":False}
     with open('users.json',"r+") as data_file:    
         data = json.load(data_file)
         data.append(userToAdd)

@@ -14,7 +14,17 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>Bolts.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>GPUImage.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>Parse.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -27,22 +37,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0766E5569678B57E6C58261AC7CB9F00</key>
+		<key>0B5EAB40BEB02483113AA907818C26D4</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>8970C11B3037D421B04E170AE0C05493</key>
+		<key>1BCEAE06F31353B2ECD2A7AE3B4EEC6D</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>A104EA71FD60F50FBF7D451CC67B213F</key>
+		<key>6E47A42804DF5707AF58E06445AD95F1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>BD733D2B799E7A2807A28D0988EF66CB</key>
+		<key>73C493A9B083B09ADB59CEE3F51D0A09</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>89786AD8FE34207EE12AD31C0354E1CD</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>E62FE1B4754041EA4BC77615034DB7FA</key>
 		<dict>
 			<key>primary</key>
 			<true/>

@@ -54,10 +54,14 @@ code_sign_if_enabled() {
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework 'Pods-TVPhoneBeacon/AMSmoothAlert.framework'
   install_framework 'Pods-TVPhoneBeacon/Alamofire.framework'
+  install_framework 'Pods-TVPhoneBeacon/Bolts.framework'
   install_framework 'Pods-TVPhoneBeacon/GPUImage.framework'
+  install_framework 'Pods-TVPhoneBeacon/Parse.framework'
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework 'Pods-TVPhoneBeacon/AMSmoothAlert.framework'
   install_framework 'Pods-TVPhoneBeacon/Alamofire.framework'
+  install_framework 'Pods-TVPhoneBeacon/Bolts.framework'
   install_framework 'Pods-TVPhoneBeacon/GPUImage.framework'
+  install_framework 'Pods-TVPhoneBeacon/Parse.framework'
 fi

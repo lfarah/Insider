@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15B22c" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="vKa-pC-sL4">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="8191" systemVersion="15B38b" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="8154"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
@@ -124,7 +124,25 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="93" y="399"/>
+            <point key="canvasLocation" x="-181" y="-27"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="JYl-jt-4LR">
+            <objects>
+                <navigationController id="KPe-x1-BB1" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" systemItem="search" id="2X7-U6-wXY"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="DsO-zy-6nC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <animations/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="0No-yy-HRG" kind="relationship" relationship="rootViewController" id="GJa-7O-kIp"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Y9f-xp-2Jw" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1108" y="-322"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="eAt-HW-Lob">
@@ -138,14 +156,14 @@
                     </tabBar>
                     <connections>
                         <segue destination="NcL-xv-ann" kind="relationship" relationship="viewControllers" id="9Oi-dr-8d7"/>
-                        <segue destination="0No-yy-HRG" kind="relationship" relationship="viewControllers" id="ApY-4Y-5wS"/>
+                        <segue destination="KPe-x1-BB1" kind="relationship" relationship="viewControllers" id="r2y-qS-4KQ"/>
                     </connections>
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYe-5d-wH8" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="951" y="399"/>
         </scene>
-        <!--Table Inside Users View Controller-->
+        <!--Users Inside-->
         <scene sceneID="95F-La-8R3">
             <objects>
                 <viewController id="0No-yy-HRG" customClass="TableInsideUsersViewController" customModule="TVPhoneBeacon" customModuleProvider="target" sceneMemberID="viewController">
@@ -163,7 +181,7 @@
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <prototypes>
                                     <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="blue" hidesAccessoryWhenEditing="NO" indentationLevel="1" indentationWidth="0.0" reuseIdentifier="cell" id="h6F-w6-h1g">
-                                        <rect key="frame" x="0.0" y="28" width="600" height="44"/>
+                                        <rect key="frame" x="0.0" y="92" width="600" height="44"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="h6F-w6-h1g" id="dqu-LF-TGd">
                                             <rect key="frame" x="0.0" y="0.0" width="600" height="43.5"/>
@@ -190,13 +208,14 @@
                         </constraints>
                     </view>
                     <tabBarItem key="tabBarItem" systemItem="favorites" id="UxU-78-XTB"/>
+                    <navigationItem key="navigationItem" title="Users Inside" id="08W-BE-GDD"/>
                     <connections>
                         <outlet property="table" destination="5Ch-fm-8Ec" id="9df-3x-H1m"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UJc-oV-ku4" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1671" y="-41"/>
+            <point key="canvasLocation" x="2139" y="-185"/>
         </scene>
         <!--Status View Controller-->
         <scene sceneID="JUu-Q7-FNO">
@@ -238,6 +257,14 @@
                                 </attributedString>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="q3k-mK-EbQ">
+                                <rect key="frame" x="533" y="28" width="48" height="30"/>
+                                <animations/>
+                                <state key="normal" title="Logout"/>
+                                <connections>
+                                    <segue destination="BYZ-38-t0r" kind="showDetail" id="f7n-ie-FzE"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
@@ -245,6 +272,8 @@
                             <constraint firstItem="eOS-Qu-yqa" firstAttribute="top" secondItem="Ib6-Rp-I2Z" secondAttribute="bottom" constant="18" id="Bp8-1N-HJg"/>
                             <constraint firstItem="Ib6-Rp-I2Z" firstAttribute="centerX" secondItem="CTC-Yg-WKF" secondAttribute="centerX" id="L2R-Kw-Qmk"/>
                             <constraint firstItem="eOS-Qu-yqa" firstAttribute="centerX" secondItem="Ib6-Rp-I2Z" secondAttribute="centerX" id="c6c-vh-uw2"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="q3k-mK-EbQ" secondAttribute="trailing" id="dax-VR-Z0f"/>
+                            <constraint firstItem="q3k-mK-EbQ" firstAttribute="top" secondItem="2dX-fC-ElK" secondAttribute="bottom" constant="8" id="gcX-Ao-JWV"/>
                             <constraint firstItem="Ib6-Rp-I2Z" firstAttribute="top" secondItem="2dX-fC-ElK" secondAttribute="bottom" constant="82" id="zRn-EF-Bls"/>
                         </constraints>
                     </view>

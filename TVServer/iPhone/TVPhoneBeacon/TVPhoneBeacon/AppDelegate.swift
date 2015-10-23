@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreLocation
+import Parse
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate,CLLocationManagerDelegate,ESTBeaconManagerDelegate {
@@ -20,7 +21,16 @@ class AppDelegate: UIResponder, UIApplicationDelegate,CLLocationManagerDelegate,
   
   func application(application: UIApplication, didFinishLaunchingWithOptions launchOptions: [NSObject: AnyObject]?) -> Bool {
     
-
+    //Parse
+    Parse.enableLocalDatastore()
+    
+    // Initialize Parse.
+    Parse.setApplicationId("aZIVUJ3tkbHQC13mTpgBSAyjVNLmCgYWZxhwn1EV",
+      clientKey: "eb4sFZ1lHGeVhWStvcHJlJoKMozbRdd23aYPZemg")
+    
+    // [Optional] Track statistics around application opens.
+    PFAnalytics.trackAppOpenedWithLaunchOptions(launchOptions)
+    
     
     if let user = NSUserDefaults.standardUserDefaults().objectForKey("user")
     {
@@ -33,7 +43,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate,CLLocationManagerDelegate,
     self.window?.rootViewController = initialViewController
     self.window?.makeKeyAndVisible()
     }
-    
+//
     
     
     return true

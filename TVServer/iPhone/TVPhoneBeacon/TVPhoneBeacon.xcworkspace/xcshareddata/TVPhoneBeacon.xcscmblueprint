@@ -1,4 +1,5 @@
 {
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "57D3CF1A9E554F575BBF67C39949CC6301BF8311",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
@@ -8,12 +9,12 @@
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "49343345-B6E5-48C1-92C4-F981CB381876",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "4CC4C0FA8B2050B826A277B0F34A2091B371D96A" : "..\/..",
-    "57D3CF1A9E554F575BBF67C39949CC6301BF8311" : ".."
+    "4CC4C0FA8B2050B826A277B0F34A2091B371D96A" : "",
+    "57D3CF1A9E554F575BBF67C39949CC6301BF8311" : "TVServer\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "TVPhoneBeacon",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
-  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "TVPhoneBeacon.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "iPhone\/TVPhoneBeacon\/TVPhoneBeacon.xcworkspace",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/lfarah\/Insider.git",

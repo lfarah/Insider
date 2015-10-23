@@ -15,7 +15,7 @@ class Cell : UICollectionViewCell {
     super.init(frame: frame)
     self.contentView.layer.cornerRadius = ITEM_SIZE/2
     self.contentView.layer.borderWidth = 1.0
-    self.contentView.layer.borderColor = UIColor.whiteColor().CGColor
+    self.contentView.layer.borderColor = UIColor.clearColor().CGColor
     
     
 //    let blurEffect = UIBlurEffect(style: UIBlurEffectStyle.Light)

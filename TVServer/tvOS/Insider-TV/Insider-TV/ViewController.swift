@@ -21,37 +21,20 @@ class ViewController: UICollectionViewController {
   
   var arrUsers = [NSDictionary]()
   
-  func playSound(name:String)
+  func playSound(name:String,isOut: Bool)
   {
-//    if self.arrUsers.count != arr.count
-//    {
-//      var alertSound = NSURL(fileURLWithPath: NSBundle.mainBundle().pathForResource("cat_meow2", ofType: "wav")!)
-//      print(alertSound)
-//      
-//      // Removed deprecated use of AVAudioSessionDelegate protocol
-//      do
-//      {
-//        try AVAudioSession.sharedInstance().setCategory(AVAudioSessionCategoryPlayback)
-//        try AVAudioSession.sharedInstance().setActive(true)
-//      }
-//      catch
-//      {
-//        
-//      }
-//      
-//      do
-//      {
-//        self.audioPlayer = try AVAudioPlayer(contentsOfURL: alertSound)
-//      }
-//      catch
-//      {
-//        
-//      }
-//      self.audioPlayer.prepareToPlay()
-//      self.audioPlayer.play()
-//    }
+    
     var mySpeechSynthesizer:AVSpeechSynthesizer = AVSpeechSynthesizer()
-    var myString:String = "Welcome, \(name)"
+    var myString:String = ""
+    if isOut
+    {
+      myString = "Welcome, \(name)"
+    }
+    else
+    {
+      myString = "See you later, \(name)"
+
+    }
     var mySpeechUtterance:AVSpeechUtterance = AVSpeechUtterance(string:myString)
     
     print("\(mySpeechUtterance.speechString)")
@@ -89,8 +72,17 @@ class ViewController: UICollectionViewController {
           {
             if !(self.arrUsers.contains(user))
             {
-              self.playSound(user["name"] as! String)
+              self.playSound(user["name"] as! String,isOut: true)
 
+            }
+          }
+          
+          for user in self.arrUsers
+          {
+            if !(arr.contains(user))
+            {
+              self.playSound(user["name"] as! String,isOut: false)
+              
             }
           }
         }
@@ -134,7 +126,7 @@ class ViewController: UICollectionViewController {
     self.collectionView!.addGestureRecognizer(tapRecognizer)
     self.collectionView!.registerClass(Cell.self, forCellWithReuseIdentifier: cellIdentifier)
     self.collectionView!.reloadData()
-    self.collectionView!.backgroundColor = UIColor.whiteColor()
+    self.collectionView!.backgroundColor = UIColor.clearColor()
     
     let timer = NSTimer.scheduledTimerWithTimeInterval(1, target: self, selector: "fetch", userInfo: nil, repeats: true)
   }
@@ -171,17 +163,33 @@ class ViewController: UICollectionViewController {
     if arrUsers.count > 0
     {
       let user = arrUsers[indexPath.row]
-      label.text = user["name"] as! String
-    }
+      label.text =  user["name"] as! String
+      
+      let imagev = UIImageView(frame: CGRectMake(0, 0, cell.frame.width, cell.frame.height))
+      if let url = user["pictureURL"]
+      {
+        print("http://" + (url as! String))
+        let finaurl =  "http://" + (url as! String)
+        let urlT = NSURL(string: finaurl)
+        let data = NSData(contentsOfURL: urlT!)
+        imagev.image = UIImage(data: data!)
+        imagev.layer.cornerRadius = imagev.frame.size.width / 2;
+        imagev.clipsToBounds = true;
+        //border
+        imagev.layer.borderWidth = 2.0;
+        imagev.layer.borderColor = UIColor.whiteColor().CGColor
+
+      }
+
     label.font = UIFont(name: "HelveticaNeue", size: CGFloat(200 / self.cellCount))
     label.textAlignment = .Center
     
-    let imagev = UIImageView(frame: CGRectMake(0, 0, cell.frame.width, cell.frame.height))
-    imagev.image = UIImage(named: arr[indexPath.row])!
     view.addSubview(imagev)
     view.addSubview(label)
-    
+    view.backgroundColor = UIColor.clearColor()
     cell.backgroundView = view
+    }
+    
     return cell
   }
   

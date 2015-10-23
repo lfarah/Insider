@@ -10,6 +10,9 @@ import UIKit
 import UIKit
 import CoreLocation
 import Alamofire
+import Parse
+
+
 class ViewController: UIViewController,CLLocationManagerDelegate {
   
   
@@ -19,6 +22,7 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
   
   @IBOutlet weak var txtName: UITextField!
   
+  var imageFileURL = ""
   let userID = "5613150c060f0bd03d702440"
   @IBOutlet weak var segLocation: UISegmentedControl!
   override func viewDidLoad() {
@@ -39,11 +43,15 @@ class ViewController: UIViewController,CLLocationManagerDelegate {
     print(self.txtName.text)
     print(self.txtPassword.text)
     
-    if let email=self.txtEmail.text,name = self.txtName.text,password=self.txtPassword.text
+    
+    if let email=self.txtEmail.text,name = self.txtName.text,password=self.txtPassword.text,image=self.imgvUser.image
     {
-      let url = NSURL(string: "https://frozen-island-1739.herokuapp.com/addUser?email=\(email)&password=\(password)&name=\(name)")
-      print(url?.absoluteString)
+      print(self.imageFileURL)
+      let imageURLCut = self.imageFileURL.componentsSeparatedByString("https://")
+        let url = NSURL(string: "https://frozen-island-1739.herokuapp.com/addUser?email=\(email)&password=\(password)&name=\(name)&pictureURL=\(imageURLCut[1])")
       
+      
+
       let request = NSURLRequest(URL: url!)
       
       NSURLConnection.sendAsynchronousRequest(request, queue: NSOperationQueue.mainQueue()) {(response, data, error) in
@@ -108,6 +116,18 @@ extension ViewController:TGCameraDelegate
     self.imgvUser.layer.borderColor = UIColor.whiteColor().CGColor
     
     self.dismissViewControllerAnimated(true, completion: nil)
+    
+    //Parse
+    let testObject = PFObject(className: "Images")
+    let file = PFFile(data: UIImagePNGRepresentation(image)!)
+    testObject["foo"] = file
+    testObject.saveInBackgroundWithBlock { (success: Bool, error: NSError?) -> Void in
+      print("Object has been saved.")
+      self.imageFileURL = (file?.url)!
+      
+//      let imageURLCut = self.imageFileURL.componentsSeparatedByString("https://")
+//      print("https://frozen-island-1739.herokuapp.com/addUser?email=\(self.txtEmail.text)&password=\(self.txtPassword.text)&name=\(self.txtName.text)&pictureURL=\(imageURLCut[1])")
+    }
   }
   func cameraDidSelectAlbumPhoto(image: UIImage!)
   {
