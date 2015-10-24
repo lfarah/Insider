@@ -7,37 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		C21621EF1BCC6F1E004352DD /* UIImage+CameraFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621B31BCC6F1E004352DD /* UIImage+CameraFilters.m */; settings = {ASSET_TAGS = (); }; };
-		C21621F01BCC6F1E004352DD /* TGCameraAuthorizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621B61BCC6F1E004352DD /* TGCameraAuthorizationViewController.m */; settings = {ASSET_TAGS = (); }; };
-		C21621F11BCC6F1E004352DD /* TGCameraNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621B81BCC6F1E004352DD /* TGCameraNavigationController.m */; settings = {ASSET_TAGS = (); }; };
-		C21621F21BCC6F1E004352DD /* TGCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621BA1BCC6F1E004352DD /* TGCameraViewController.m */; settings = {ASSET_TAGS = (); }; };
-		C21621F31BCC6F1E004352DD /* TGPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621BC1BCC6F1E004352DD /* TGPhotoViewController.m */; settings = {ASSET_TAGS = (); }; };
-		C21621F41BCC6F1E004352DD /* TGAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621BF1BCC6F1E004352DD /* TGAlbum.m */; settings = {ASSET_TAGS = (); }; };
-		C21621F51BCC6F1E004352DD /* TGAssetsLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621C11BCC6F1E004352DD /* TGAssetsLibrary.m */; settings = {ASSET_TAGS = (); }; };
-		C21621F61BCC6F1E004352DD /* TGCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621C31BCC6F1E004352DD /* TGCamera.m */; settings = {ASSET_TAGS = (); }; };
-		C21621F71BCC6F1E004352DD /* TGCameraColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621C51BCC6F1E004352DD /* TGCameraColor.m */; settings = {ASSET_TAGS = (); }; };
-		C21621F81BCC6F1E004352DD /* TGCameraFlash.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621C71BCC6F1E004352DD /* TGCameraFlash.m */; settings = {ASSET_TAGS = (); }; };
-		C21621F91BCC6F1E004352DD /* TGCameraFocus.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621C91BCC6F1E004352DD /* TGCameraFocus.m */; settings = {ASSET_TAGS = (); }; };
-		C21621FA1BCC6F1E004352DD /* TGCameraGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621CC1BCC6F1E004352DD /* TGCameraGrid.m */; settings = {ASSET_TAGS = (); }; };
-		C21621FB1BCC6F1E004352DD /* TGCameraShot.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621CE1BCC6F1E004352DD /* TGCameraShot.m */; settings = {ASSET_TAGS = (); }; };
-		C21621FC1BCC6F1E004352DD /* TGCameraToggle.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621D01BCC6F1E004352DD /* TGCameraToggle.m */; settings = {ASSET_TAGS = (); }; };
-		C21621FD1BCC6F1E004352DD /* TGAssetImageFile.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621D31BCC6F1E004352DD /* TGAssetImageFile.m */; settings = {ASSET_TAGS = (); }; };
-		C21621FE1BCC6F1E004352DD /* TGCameraFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621D61BCC6F1E004352DD /* TGCameraFilterView.m */; settings = {ASSET_TAGS = (); }; };
-		C21621FF1BCC6F1E004352DD /* TGCameraFocusView.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621D81BCC6F1E004352DD /* TGCameraFocusView.m */; settings = {ASSET_TAGS = (); }; };
-		C21622001BCC6F1E004352DD /* TGCameraGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621DA1BCC6F1E004352DD /* TGCameraGridView.m */; settings = {ASSET_TAGS = (); }; };
-		C21622011BCC6F1E004352DD /* TGCameraSlideDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621DC1BCC6F1E004352DD /* TGCameraSlideDownView.m */; settings = {ASSET_TAGS = (); }; };
-		C21622021BCC6F1E004352DD /* TGCameraSlideUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621DE1BCC6F1E004352DD /* TGCameraSlideUpView.m */; settings = {ASSET_TAGS = (); }; };
-		C21622031BCC6F1E004352DD /* TGCameraSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621E01BCC6F1E004352DD /* TGCameraSlideView.m */; settings = {ASSET_TAGS = (); }; };
-		C21622041BCC6F1E004352DD /* TGTintedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621E21BCC6F1E004352DD /* TGTintedButton.m */; settings = {ASSET_TAGS = (); }; };
-		C21622051BCC6F1E004352DD /* TGTintedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621E41BCC6F1E004352DD /* TGTintedLabel.m */; settings = {ASSET_TAGS = (); }; };
-		C21622061BCC6F1E004352DD /* TGCameraAuthorizationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C21621E61BCC6F1E004352DD /* TGCameraAuthorizationViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		C21622071BCC6F1E004352DD /* TGCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C21621E81BCC6F1E004352DD /* TGCameraViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		C21622081BCC6F1E004352DD /* TGPhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C21621EA1BCC6F1E004352DD /* TGPhotoViewController.xib */; settings = {ASSET_TAGS = (); }; };
-		C21622091BCC6F1E004352DD /* TGCameraViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C21621ED1BCC6F1E004352DD /* TGCameraViewController.bundle */; settings = {ASSET_TAGS = (); }; };
-		C216220A1BCC6F1E004352DD /* TGCameraViewController.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C21621EE1BCC6F1E004352DD /* TGCameraViewController.xcassets */; settings = {ASSET_TAGS = (); }; };
-		C21622101BCC7868004352DD /* arrow483.png in Resources */ = {isa = PBXBuildFile; fileRef = C216220F1BCC7868004352DD /* arrow483.png */; settings = {ASSET_TAGS = (); }; };
-		C21622121BCC78C0004352DD /* blueetooth.png in Resources */ = {isa = PBXBuildFile; fileRef = C21622111BCC78C0004352DD /* blueetooth.png */; settings = {ASSET_TAGS = (); }; };
-		C21796CA1BD069D400D3BF8D /* TableInsideUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21796C91BD069D400D3BF8D /* TableInsideUsersViewController.swift */; settings = {ASSET_TAGS = (); }; };
+		C21621EF1BCC6F1E004352DD /* UIImage+CameraFilters.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621B31BCC6F1E004352DD /* UIImage+CameraFilters.m */; };
+		C21621F01BCC6F1E004352DD /* TGCameraAuthorizationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621B61BCC6F1E004352DD /* TGCameraAuthorizationViewController.m */; };
+		C21621F11BCC6F1E004352DD /* TGCameraNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621B81BCC6F1E004352DD /* TGCameraNavigationController.m */; };
+		C21621F21BCC6F1E004352DD /* TGCameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621BA1BCC6F1E004352DD /* TGCameraViewController.m */; };
+		C21621F31BCC6F1E004352DD /* TGPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621BC1BCC6F1E004352DD /* TGPhotoViewController.m */; };
+		C21621F41BCC6F1E004352DD /* TGAlbum.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621BF1BCC6F1E004352DD /* TGAlbum.m */; };
+		C21621F51BCC6F1E004352DD /* TGAssetsLibrary.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621C11BCC6F1E004352DD /* TGAssetsLibrary.m */; };
+		C21621F61BCC6F1E004352DD /* TGCamera.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621C31BCC6F1E004352DD /* TGCamera.m */; };
+		C21621F71BCC6F1E004352DD /* TGCameraColor.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621C51BCC6F1E004352DD /* TGCameraColor.m */; };
+		C21621F81BCC6F1E004352DD /* TGCameraFlash.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621C71BCC6F1E004352DD /* TGCameraFlash.m */; };
+		C21621F91BCC6F1E004352DD /* TGCameraFocus.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621C91BCC6F1E004352DD /* TGCameraFocus.m */; };
+		C21621FA1BCC6F1E004352DD /* TGCameraGrid.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621CC1BCC6F1E004352DD /* TGCameraGrid.m */; };
+		C21621FB1BCC6F1E004352DD /* TGCameraShot.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621CE1BCC6F1E004352DD /* TGCameraShot.m */; };
+		C21621FC1BCC6F1E004352DD /* TGCameraToggle.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621D01BCC6F1E004352DD /* TGCameraToggle.m */; };
+		C21621FD1BCC6F1E004352DD /* TGAssetImageFile.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621D31BCC6F1E004352DD /* TGAssetImageFile.m */; };
+		C21621FE1BCC6F1E004352DD /* TGCameraFilterView.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621D61BCC6F1E004352DD /* TGCameraFilterView.m */; };
+		C21621FF1BCC6F1E004352DD /* TGCameraFocusView.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621D81BCC6F1E004352DD /* TGCameraFocusView.m */; };
+		C21622001BCC6F1E004352DD /* TGCameraGridView.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621DA1BCC6F1E004352DD /* TGCameraGridView.m */; };
+		C21622011BCC6F1E004352DD /* TGCameraSlideDownView.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621DC1BCC6F1E004352DD /* TGCameraSlideDownView.m */; };
+		C21622021BCC6F1E004352DD /* TGCameraSlideUpView.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621DE1BCC6F1E004352DD /* TGCameraSlideUpView.m */; };
+		C21622031BCC6F1E004352DD /* TGCameraSlideView.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621E01BCC6F1E004352DD /* TGCameraSlideView.m */; };
+		C21622041BCC6F1E004352DD /* TGTintedButton.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621E21BCC6F1E004352DD /* TGTintedButton.m */; };
+		C21622051BCC6F1E004352DD /* TGTintedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = C21621E41BCC6F1E004352DD /* TGTintedLabel.m */; };
+		C21622061BCC6F1E004352DD /* TGCameraAuthorizationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C21621E61BCC6F1E004352DD /* TGCameraAuthorizationViewController.xib */; };
+		C21622071BCC6F1E004352DD /* TGCameraViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C21621E81BCC6F1E004352DD /* TGCameraViewController.xib */; };
+		C21622081BCC6F1E004352DD /* TGPhotoViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = C21621EA1BCC6F1E004352DD /* TGPhotoViewController.xib */; };
+		C21622091BCC6F1E004352DD /* TGCameraViewController.bundle in Resources */ = {isa = PBXBuildFile; fileRef = C21621ED1BCC6F1E004352DD /* TGCameraViewController.bundle */; };
+		C216220A1BCC6F1E004352DD /* TGCameraViewController.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C21621EE1BCC6F1E004352DD /* TGCameraViewController.xcassets */; };
+		C21622101BCC7868004352DD /* arrow483.png in Resources */ = {isa = PBXBuildFile; fileRef = C216220F1BCC7868004352DD /* arrow483.png */; };
+		C21622121BCC78C0004352DD /* blueetooth.png in Resources */ = {isa = PBXBuildFile; fileRef = C21622111BCC78C0004352DD /* blueetooth.png */; };
+		C21796CA1BD069D400D3BF8D /* TableInsideUsersViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C21796C91BD069D400D3BF8D /* TableInsideUsersViewController.swift */; };
 		C25C3D891BC4862300E148C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25C3D881BC4862300E148C8 /* AppDelegate.swift */; };
 		C25C3D8B1BC4862300E148C8 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25C3D8A1BC4862300E148C8 /* ViewController.swift */; };
 		C25C3D8E1BC4862300E148C8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C25C3D8C1BC4862300E148C8 /* Main.storyboard */; };
@@ -46,7 +46,7 @@
 		C25C3D9E1BC4862300E148C8 /* TVPhoneBeaconTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25C3D9D1BC4862300E148C8 /* TVPhoneBeaconTests.swift */; };
 		C25C3DA91BC4862300E148C8 /* TVPhoneBeaconUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25C3DA81BC4862300E148C8 /* TVPhoneBeaconUITests.swift */; };
 		C25C3DF21BC72A4700E148C8 /* StatusViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C25C3DF11BC72A4700E148C8 /* StatusViewController.swift */; };
-		C28E98071BC8836D006D26E9 /* profile-circle.png in Resources */ = {isa = PBXBuildFile; fileRef = C28E98061BC8836D006D26E9 /* profile-circle.png */; settings = {ASSET_TAGS = (); }; };
+		C28E98071BC8836D006D26E9 /* profile-circle.png in Resources */ = {isa = PBXBuildFile; fileRef = C28E98061BC8836D006D26E9 /* profile-circle.png */; };
 		D49D63CD765AF68BE841BC48 /* Pods_TVPhoneBeacon.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F70D57337CB4EC505798E4D8 /* Pods_TVPhoneBeacon.framework */; settings = {ATTRIBUTES = (Weak, ); }; };
 /* End PBXBuildFile section */
 
